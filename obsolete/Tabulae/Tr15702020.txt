@@ -1,13 +1,39 @@
-01-12=Tempora/Epi1-0a;;
-02-03=Epi4-0~B;;
-02-08=Tempora/Epi5-0;;
-02-23=;;
-02-29=02-23o;;
-06-27=06-28v;;
-08-08=08-09v;;
-08-22=08-23o;;
-09-19=09-20v;;
-11-29=11-29r;;
-12-30=Tempora/Nat1-0;;
-Hy05-18=1;;
-dirge=;;
+# Constants
+TEMPORA_EPI1_0A = "Tempora/Epi1-0a"
+EPIC_4_0_B = "Epi4-0~B"
+EPIC_5_0 = "Epi5-0"
+TEMPORA_NAT1_0 = "Tempora/Nat1-0"
+DAY_OFFSET = 1
+
+# Variables
+jan_12 = TEMPORA_EPI1_0A
+feb_03 = EPIC_4_0_B
+feb_08 = EPIC_5_0
+feb_23 = None
+feb_29 = feb_23  # Set to the same value as feb_23
+jun_27 = "06-28v"
+aug_08 = "08-09v"
+aug_22 = "08-23o"
+sep_19 = "09-20v"
+nov_29 = "11-29r"
+dec_30 = TEMPORA_NAT1_0
+may_18 = 1  # Hy05-18 is set to 1
+dirge = None
+
+# Assign values to variables based on month and day
+events = {
+    (1, 12): jan_12,
+    (2, 3): feb_03,
+    (2, 8): feb_08,
+    (2, 23): feb_23,
+    (2, 29): feb_29,
+    (6, 27): jun_27,
+    (8, 8): aug_08,
+    (8, 22): aug_22,
+    (9, 19): sep_19,
+    (11, 29): nov_29,
+    (12, 30): dec_30,
+}
+
+# Print out the values of the variables
+for month, day in
