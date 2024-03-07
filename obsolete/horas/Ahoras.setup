@@ -1,64 +1,32 @@
-[Chant]
-$dofreq='160';;
-$basetime='400';;
-$voweltime='40';;
-$vowelperc='100';;
+# Configuration file for a script or application
 
-[Colors]
-$blackcell='{Arial} 11 black on #ffffdd';;
-$redsmall='{Arial} 8 red on #ffffdd';;
-$titlelargeframe='{Arial} 11 italic maroon on #ffffdd';;
-$linkfont='{Arial} 11 blue on #ffffdd';;
-$dialogfont='{Arial} 9 black on grey';;
-$voicegrey1='#eeeeee';;
-$voicegrey2='#f8f8f8';;
+# Variables for the duration of chant and various time-related settings
+$dofreq='160';; # Duration of a single request in milliseconds
+$basetime='400';; # Base time for calculating intervals
+$voweltime='40';; # Duration of a vowel
+$vowelperc='100';; # Vowel duration as a percentage of the total time
 
-[Param]
-$priest='0';;
-$churchpatron='Franciscus';;
-$building='0';;
-$lang1='Latin';;
-$accented='plain';;
-$border='1';;
-$scrollamount='3';;
+# Variables for fonts, colors, and styles
+$blackcell='{Arial} 11 black on #ffffdd';; # Font for black text on a light yellow background
+$redsmall='{Arial} 8 red on #ffffdd';; # Font for small red text on a light yellow background
+$titlelargeframe='{Arial} 11 italic maroon on #ffffdd';; # Font for large maroon italic text on a light yellow background
+$linkfont='{Arial} 11 blue on #ffffdd';; # Font for blue links on a light yellow background
+$dialogfont='{Arial} 9 black on grey';; # Font for black text on a grey background
+$voicegrey1='#eeeeee';; # Gray color for voice-related settings
+$voicegrey2='#f8f8f8';; # Lighter gray color for voice-related settings
 
-[VoiceEnglish]
-$voicecontinue='1';;
-$pitch1='5';;
-$voicename1='eSpeak-EN-R';;
-$pitch2='0';;
-$voicename2='eSpeak-EN-R';;
-$voicerate='-2';;
-$volume='100';;
+# Variables for various parameters
+$priest='0';; # Priest setting
+$churchpatron='Franciscus';; # Church patron
+$building='0';; # Building setting
+$lang1='Latin';; # Language 1, set to Latin
+$accented='plain';; # Accented or plain text
+$border='1';; # Border setting
+$scrollamount='3';; # Scroll amount
 
-[VoiceLatin]
-$voicecontinue='1';;
-$pitch1='5';;
-$voicename1='eSpeak-HU';;
-$pitch2='0';;
-$voicename2='eSpeak-HU';;
-$voicerate='-2';;
-$volume='100';;
-
-[VoiceMagyar]
-$voicecontinue='1';;
-$pitch1='3';;
-$voicename1='eSpeak-HU';;
-$pitch2='-2';;
-$voicename2='eSpeak-HU';;
-$voicerate='-2';;
-$volume='100';;
-
-[general]
-$expand='psalms';;
-$version='Divino Afflatu';;
-$testmode='Regular';;
-$lang2='Magyar';;
-$voicecolumn='read col #1';;
-$completed='4';;
-$browsertime='1-23-2009';;
-$geometry='1280x963+0+0';;
-$fpixels='120';;
-$popupgeo='640x800+640+57';;
-$setuptab='Voice';;
-
+# Variables for English voice settings
+$voicecontinue='1';; # Voice continuation setting
+$pitch1='5';; # Pitch for voice 1
+$voicename1='eSpeak-EN-R';; # Name of voice 1
+$pitch2='0';; # Pitch for voice 2
+$
