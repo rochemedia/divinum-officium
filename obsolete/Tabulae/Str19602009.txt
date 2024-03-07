@@ -1,3 +1,8 @@
-seant02-13=Quadp1-1;;
-seant02-19=Quadp2-0;;
-seant02-20=Quadp2-0;;
+# Define a variable 'seant02-13' and assign it the value 'Quadp1-1'
+seant02-13 = 'Quadp1-1' ;;
+
+# Define a variable 'seant02-19' and assign it the value 'Quadp2-0'
+seant02-19 = 'Quadp2-0' ;;
+
+# Define a variable 'seant02-20' and assign it the value 'Quadp2-0'
+seant02-20 = 'Quadp2-0' ;;
