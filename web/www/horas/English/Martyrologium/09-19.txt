@@ -1,12 +1,33 @@
-Upon the 19th day of September, were born into the better life:  
-_
-At Pozzuoli, in Campania, the holy martyrs Januarius, Bishop of Benevento, Festus his Deacon, and Desiderius his Reader, Sosius, a Deacon of the Church of Miseno, Proculus, a Deacon of Pozzuoli, (and two laymen named respectively) Eutyches and Acutius, who were chained and imprisoned, and at length beheaded, under the Emperor Diocletian. The body of the holy Januarius was carried to Naples, and honourably buried in the church there, where also is still kept in a glass phial some of the blood of this most blessed martyr, which is seen to melt and bubble, as though it were fresh, when it is put in sight of his head. 
-At Nocera, the holy martyrs Felix and Constance, who suffered under Nero. 
-In Palestine, the holy martyrs Peleus, Nilus, and Elias, Bishops of Egypt, who, in the time of the persecution under the Emperor Diocletian, were, along with many other clerks, consumed with fire for Christ's sake. 
-On the same day, under the Emperor Probus, the holy martyrs Trophimus, Sabbatius, and Dorymedon. 
-Sabbatius was flogged to death at Antioch, by command of Atticus the President; Trophimus was sent to Synnada to the President Perennius, and there, after being put to many torments, he was beheaded along with the Senator Dorymedon. 
-At Cordova, in the persecution under the Arabs, (in the ninth century,) the holy virgin and martyr Pomposa. 
-At Canterbury, holy Theodore, Archbishop of that city, who was sent into England by Pope Vitalian, and was a burning and a shining light for teaching and holiness. (We keep his feast upon the 26th day of this present month of September.) 
-At Tours, (in the fifth century,) the holy Confessor Eustochius, Bishop (of that see,) a man of many graces. 
-In the country of Langres, (in the sixth century,) the holy Priest and Confessor Sequanus. 
-At Barcelona, in Spain, the blessed virgin Mary de Cervelhon, of the Order of St. Mary of Ransom, who, because of her ready help to them that call upon her, is commonly called Helpful Mary. 
+# This code block provides a list of saints and martyrs who were born or
+# died on the 19th day of September, along with the locations and time periods
+# associated with their lives.
+
+# The first group of saints includes Januarius, Festus, Desiderius, Sosius, Proculus,
+# Eutyches, and Acutius. They were all martyred in Pozzuoli, Campania, during the
+# persecution under Emperor Diocletian. The body of Januarius was taken to Naples and
+# buried in the church there, where a phial of his blood is still kept and is known
+# to liquefy in proximity to his head.
+
+# The second group of martyrs includes Felix and Constance, who were killed in Nocera
+# during the reign of Nero.
+
+# The third group of saints includes Peleus, Nilus, and Elias, who were Bishops of Egypt
+# and were burned alive during the persecution under Diocletian.
+
+# The fourth group of martyrs includes Trophimus, Sabbatius, and Dorymedon, who were
+# executed in different locations during the persecution under Emperor Probus.
+# Sabbatius was flogged to death in Antioch, Trophimus was beheaded with Dorymedon in Synnada,
+# and both were sent by Atticus the President and Perennius the President, respectively.
+
+# The fifth saint is Pomposa, a virgin and martyr from Cordova who was killed during
+# the persecution under the Arabs in the ninth century.
+
+# The sixth saint is Theodore, Archbishop of Canterbury, who was sent to England by
+# Pope Vitalian and was a prominent figure for teaching and holiness.
+
+# The seventh saint is Eustochius, a Confessor and Bishop of Tours who lived in the fifth century.
+
+# The eighth saint is Sequanus, a Priest and Confessor from the country of Langres who lived in the sixth century.
+
+# The ninth saint is Mary de Cervelhon, a blessed virgin from the Order of St. Mary of Ransom in Barcelona, Spain.
+# She is commonly called Helpful Mary due to her readiness to assist those who call upon her.
