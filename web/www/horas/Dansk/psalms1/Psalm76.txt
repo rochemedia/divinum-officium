@@ -1,4 +1,12 @@
-76:2 I cry out loud to God for help; * I cry out loud to God, he will hear me.
-76:3 On the day of distress I seek the Lord, * unwearyingly I stretch out my hand at night,
-76:4 My soul does not find rest. * When I remember God, I sigh, and when I meditate, my courage fails.
-7
+76:2 I cry out loud to God for help; // A comment describing the purpose of this line: calling a helper function for God
+I cry out loud to God, he will hear me. // A comment explaining the expected outcome of the previous line
+
+76:3 On the day of distress I seek the Lord, // Comment for calling a Lord-seeking function on a distressing day
+unwearyingly I stretch out my hand at night, // Comment for continuously extending hand at night
+
+76:4 My soul does not find rest. // Comment for the soul not finding rest
+When I remember God, I sigh, // Comment for sighing when remembering God
+and when I meditate, my courage fails. // Comment for courage failing during meditation
+
+7 // A placeholder for further code or a continuation of the current context
+
