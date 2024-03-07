@@ -1,11 +1,18 @@
+<-- Rank definition for Saint Gregory VII, Pope and Confessor -->
 [Rank]
 S. Gregorii VII Papae Confessoris;;Duplex;;3;;vide C4
 
+<-- Comment: This line defines the rank of the entry for Saint Gregory VII, Pope and Confessor. The rank is "Duplex" and level is "3", with a reference to C4. -->
+
+<-- Rule definition for the rank -->
 [Rule]
 vide C4;
 9 lectiones
 CPapaM=Urban;
 
+<-- Comment: This section defines the rule for the rank. It includes a reference to C4, specifies 9 lections, and sets CPapaM to Urban. -->
+
+<-- Commemoratio for Saint Urban I, Pope and Martyr -->
 [Commemoratio 1]
 !Commemoratio S. Urbani I Papae et Martyris
 Ant. Eternal light will shine * over your saints O Lord, and the eternity of the times, alleluia
@@ -17,13 +24,11 @@ $Oremus.
 O Almighty God, of Whose blessed Martyr and Bishop Urban we do make solemn memorial, grant, we beseech thee, that we may be helpen of his prayers in thy presence.
 $Per Dominum.
 
+<-- Comment: This is the first commemoration section, for Saint Urban I, Pope and Martyr. It includes antiphons, verses, and an Oremus prayer. -->
+
+<-- Commemoratio for Saint Urban I, Pope and Martyr -->
 [Commemoratio 2]
 !Commemoratio S. Urbani I. Pp. Martyris
 Ant. Daughters of Jerusalem, * come and see the crowned martyrs, the Lord crowned them in his solemnity and delight. alleluia
 _
-V. Precious in the sight of the Lord, alleluia
-R. Is the death of his saints, alleluia
-_
-$Oremus.
-O Almighty God, of Whose blessed Martyr and Bishop Urban we do make solemn memorial, grant, we beseech thee, that we may be helpen of his prayers in thy presence.
-$Per Dominum.
+V. Precious in the sight of the Lord
