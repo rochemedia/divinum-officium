@@ -1,9 +1,22 @@
-01-11=Epi1-0a;;
-09-29=095-0;;
-09-30=095-1;;
-10-01=095-2;;
-10-30=105-0;;
-11-17=114-2~B;;
-11-19=114-5~B;;
-11-24=115-1~115-2~115-3~B;;
-11-27=115-5~B;;
+# Define a mapping of date ranges to corresponding values
+date_ranges = {
+    (0, 11): "Epi1-0a",
+    (9, 29): "095-0",
+    (9, 30): "095-1",
+    (10, 1): "095-2",
+    (10, 30): "105-0",
+    (11, 17): "114-2~B",
+    (11, 19): "114-5~B",
+    (11, 24): ("115-1", "115-2", "115-3", "B"),
+    (11, 27): "115-5~B"
+}
+
+# Iterate over the mapping and process each date range
+for start_date, end_date in date_ranges:
+    for date in range(start_date, end_date + 1):
+        value = date_ranges[(start_date, end_date)]
+        if isinstance(value, str):
+            print(f"{date}-{date}={value};;")
+        else:
+            for v in value:
+                print(f"{date}-{date}={v};;")
