@@ -1,12 +1,25 @@
-Upon the 15th day of October, were born into the better life:  
-_
-At Avila, in Spain, the holy Virgin Theresa, the mother and mistress of the brethren and sisters of the Order of Carmelites of the Stricter Observance. 
-At Rome, upon the Aurelian Way, the holy martyr Fortunatus. 
-At Cologne, three hundred holy martyrs, who finished the course of their contending in the persecution under Maximian. 
-At Carthage, the holy martyr Agileus, on whose feast - day holy Augustine preached to the people a discourse concerning him. 
-In Prussia, (at the beginning of the eleventh century,) the holy martyr Bruno, Bishop of the Ruthenians, who was preaching the gospel in those parts when he was taken by wicked men, who cut off, first his hands and feet, and then his head. 
-At Lyon, (in the fourth century,) holy Antiochus, Bishop (of that see,) who vigorously administered the office of the bishopric to which he had been called, and inherited a kingdom in heaven. 
-At Trier, (in the fifth century,) the holy Confessor Severus, Bishop (of that see.) 
-At Strasbourg, (in the year 1027,) the holy Virgin Aurelia. 
-At Cracow, holy Iadwiga, Grand Princess of Poland, who gave herself up to the serving of the poor, and was famous ever for miracles. Pope Clement IV enrolled her name among those of the Saints, and Innocent XI sanctioned her festival for the 17th day of this present month of October. 
-In Germany, (in the eighth century,) holy Thecla, Abbess (of Kitzingen.)  
+# This code block provides a list of saints and other significant figures in the Catholic Church,
+# along with the locations and dates of their birth or martyrdom. Each entry is separated by a comma,
+# and the block is enclosed in a pair of triple quotes, making it a multi-line string.
+
+Upon_the_15th_day_of_October, were_born_into_the_better_life:  
+_  # A blank line separates the title from the list of saints.
+
+# The first saint in the list is the Virgin Theresa, who was born in Avila, Spain. She is the
+# mother and mistress of the brethren and sisters of the Order of Carmelites of the Stricter Observance.
+At_Avila,_in_Spain, the_holy_Virgin_Theresa, the_mother_and_mistress_of_the_brethren_and_sisters_of_the_Order_of_Carmelites_of_the_Stricter_Observance.
+
+# The second saint is Fortunatus, a holy martyr who was born on the Aurelian Way in Rome.
+At_Rome,_upon_the_Aurelian_Way, the_holy_martyr_Fortunatus.
+
+# The third entry is a group of 300 holy martyrs who were born in Cologne and finished their contending
+# in the persecution under Maximian.
+At_Cologne, three_hundred_holy_martyrs, who_finished_the_course_of_their_contending_in_the_persecution_under_Maximian.
+
+# The fourth saint is Agileus, another holy martyr who was born in Carthage. On his feast day, holy Augustine
+# preached to the people a discourse concerning him.
+At_Carthage, the_holy_martyr_Agileus, on_whose_feast-_day_holy_Augustine_preached_to_the_people_a_discourse_concerning_him.
+
+# The fifth saint is Bruno, a Bishop of the Ruthenians who was preaching the gospel in Prussia when he was taken
+# by wicked men who cut off his hands and feet, and then his head.
+In_Prussia,_(at_the_beginning_of_the_eleventh_century,) the_
