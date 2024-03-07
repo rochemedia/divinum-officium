@@ -1,99 +1,71 @@
-[Rank]
-S. Cyrilli Episc. Alexandrini Confessoris Ecclesiae Doctoris;;Duplex;;3;;vide C4a
+# [Rank] - A dictionary containing the rank information
+# The key 'S. Cyrilli Episc. Alexandrini Confessoris Ecclesiae Doctoris' maps to a tuple with four elements:
+# - 'Duplex' (a string indicating the rank type)
+# - 'optional' (a string indicating whether the rank is optional or not)
+# - 2 (an integer indicating the order of the rank)
+# - 'vide C4a' (a string containing additional information)
+Rank = {
+    'S. Cyrilli Episc. Alexandrini Confessoris Ecclesiae Doctoris': ('Duplex', 'optional', 2, 'vide C4a'),
+    # Other rank entries would follow a similar pattern
+}
 
-[Name]
-Cyril
+# [Name] - A dictionary containing the name information
+# The key 'Cyril' maps to the string 'Cyril'
+Name = {
+    'Cyril': 'Cyril'
+    # Other name entries would follow a similar pattern
+}
 
-[RankNewcal]
-S. Cyrilli Episc. Alexandrini Confessoris Ecclesiae Doctoris;;Duplex optional;;2;;vide C4a
+# [RankNewcal] - A dictionary containing the new rank information
+# The key 'S. Cyrilli Episc. Alexandrini Confessoris Ecclesiae Doctoris' maps to a tuple with four elements:
+# - 'Duplex optional' (a string indicating the new rank type)
+# - None (no information about whether the new rank is optional or not)
+# - 2 (an integer indicating the order of the new rank)
+# - 'vide C4a' (a string containing additional information)
+RankNewcal = {
+    'S. Cyrilli Episc. Alexandrini Confessoris Ecclesiae Doctoris': ('Duplex optional', None, 2, 'vide C4a'),
+    # Other rank newcal entries would follow a similar pattern
+}
 
-[Rule]
-vide C4a;mtv
-9 lectiones
+# [Rule] - A dictionary containing the rule information
+# The key 'vide C4a;mtv' maps to the string '9 lectiones'
+Rule = {
+    'vide C4a;mtv': '9 lectiones'
+    # Other rule entries would follow a similar pattern
+}
 
-[Oratio]
-O God, Who didst make thy blessed Confessor and Bishop Cyril to be an~
-unconquered teacher that the Most Blessed Virgin Mary is Mother of God, grant~
-unto us that through his prayers we who believe her to be Mother of God in very~
-deed may find safety under her motherly protection.
-$Per eumdem
+# [Oratio] - A dictionary containing the oratio information
+# The key maps to a string containing the oratio text
+Oratio = {
+    None: 'O God, Who didst make thy blessed Confessor and Bishop Cyril to be an~unconquered teacher that the Most Blessed Virgin Mary is Mother of God, grant~unto us that through his prayers we who believe her to be Mother of God in very~deed may find safety under her motherly protection. $Per eumdem'
+    # Other oratio entries would follow a similar pattern
+}
 
-[Commemoratio]
-!Commemoration of S. Apollonia, Virgin and Martyr
-@Commune/C6:Oratio proper
-$Oremus
-v. O God, Who, amidst the wondrous work of thy Divine power, dost make even weak~
-women to be more than conquerors in the uplifting of their testimony, mercifully~
-grant unto all us which do keep the Birthday of thy blessed handmaiden and~
-witness Apollonia grace to follow her steps toward thee.
-$Per Dominum
+# [Commemoratio] - A dictionary containing the commemoratio information
+# The key '!Commemoration of S. Apollonia, Virgin and Martyr' maps to a tuple with three elements:
+# - 'Commune/C6:Oratio proper' (a string indicating the type of oratio)
+# - 'Oremus' (a string indicating the beginning of the oratio)
+# - The value of the 'Commune/C6:Oratio proper' key in the Oratio dictionary (a string containing the oratio text)
+Commemoratio = {
+    '!Commemoration of S. Apollonia, Virgin and Martyr': ('Commune/C6:Oratio proper', 'Oremus', Oratio['Commune/C6:Oratio proper']),
+    # Other commemoratio entries would follow a similar pattern
+}
 
-[Lectio4]
-The praises of Cyril of Alexandria have been celebrated not only by one writer~
-or another, but have even been registered in the acts of the Ecumenical Councils~
-of Ephesus and Chalcedon. He was born of distinguished parents, and was the~
-nephew of Theophilus, Pope of Alexandria. While he was still young he displayed~
-marks of his excellent understanding. After giving a deep study to letters and~
-science he betook himself to John, Bishop of Jerusalem, to be perfected in the~
-Christian faith. After his return to Alexandria, and the death of Theophilus, he~
-was raised to that see. In this office he kept ever before his eyes the type of~
-the Shepherd of souls as it had been laid down by the Apostle; and by ever~
-adhering thereto deservedly earned the glory of an holy Bishop.
+# [Lectio4] - A dictionary containing the lectio4 information
+# The key maps to a string containing the lectio4 text
+Lectio4 = {
+    None: 'The praises of Cyril of Alexandria have been celebrated not only by one writer~or another, but have even been registered in the acts of the Ecumenical Councils~of Ephesus and Chalcedon. He was born of distinguished parents, and was the~nephew of Theophilus, Pope of Alexandria. While he was still young he displayed~marks of his excellent understanding. After giving a deep study to letters and~science he betook himself to John, Bishop of Jerusalem, to be perfected in the~Christian faith. After his return to Alexandria, and the death of Theophilus, he~was raised to that see. In this office he kept ever before his eyes the type of~the Shepherd of souls as it had been laid down by the Apostle; and by ever~adhering thereto deservedly earned the glory of an holy Bishop.'
+    # Other lectio4 entries would follow a similar pattern
+}
 
-[Lectio5]
-Zeal for the salvation of souls was kindled in him, and he undertook all care~
-to keep in the faith and in soundness of life the flock unto him committed, and~
-to preserve them from the poisonous pastures of infidelity and heresy; hence, in~
-accordance with the laws, he caused the followers of Novatus to be expelled from~
-the city, and those Jews to be punished who had been induced by rage to plan a~
-massacre of the Christians. His eminent care for the preservation of the~
-Catholic faith pure and undenled shone forth especially in his controversy~
-against Nestorius, Patriarch of Constantinople, who asserted that Jesus Christ~
-had been born of the Virgin Mary as man only and not as God, and that the~
-Godhead had been bestowed upon Him because of His merits. Cyril first attempted~
-to convert Nestorius, but when he found this hopeless he denounced him to the~
-Supreme Pontiff the holy Celestine.
+# [Lectio5] - A dictionary containing the lectio5 information
+# The key maps to a string containing the lectio5 text
+Lectio5 = {
+    None: 'Zeal for the salvation of souls was kindled in him, and he undertook all care~to keep in the faith and in soundness of life the flock unto him committed, and~to preserve them from the poisonous pastures of infidelity and heresy; hence, in~accordance with the laws, he caused the followers of Novatus to be expelled from~the city, and those Jews to be punished who had been induced by rage to plan a~massacre of the Christians. His eminent care for the preservation of the~Catholic faith pure and undenled shone forth especially in his controversy~against Nestorius, Patriarch of Constantinople, who asserted that Jesus Christ~had been born of the Virgin Mary as man only and not as God, and that the~Godhead had been bestowed upon Him because of His merits. Cyril first attempted~to convert Nestorius, but when he found this hopeless he denounced him to the~Supreme Pontiff the holy Celestine.'
+    # Other lectio5 entries would follow a similar pattern
+}
 
-[Lectio6]
-As delegate of Pope Celestine, Cyril presided at the Council of Ephesus where~
-the Nestorian heresy was condemned; Nestorius deprived of his see; and the~
-Catholic doctrine as to the unity of Person in Christ and the divine Motherhood~
-of the glorious Virgin Mary was laid down amid the rejoicings of all the people,~
-who escorted the bishops to their lodgings with a torch-light procession. For~
-this reason Nestorius and his followers made Cyril the object of slanders,~
-insults, and persecutions which he bore with profound patience, having all his~
-care for the purity of the faith, and taking no heed to what the heretics might~
-say or try against him. At length he died a holy death, in the year of salvation
-444 and of his own papacy the 32nd. After vast work for the Church of God, and~
-leaving behind him diverse writings directed either against heathens and heretics~
-or to the exposition of the holy Scriptures and of Catholic doctrine, the~
-Supreme Pontiff Leo XIII. extended to the Universal Church the Office and Mass~
-of this most eminent champion of the Catholic faith, and light of the Eastern~
-Church.
-
-[Lectio93]
-!Commemoration for S. Apollonia
-Apollonia was an aged virgin of Alexandria, who, (in the year of salvation 249,)~
-in the reign of the Emperor Decius, was brought before the idols to worship them,~
-but refused, declaring that Christ Jesus is True God, and that to Him worship is~
-due. The cruel executioners beat and pulled out all her teeth, and threatened to~
-burn her alive if she would not deny Christ. To whom she answered, that for~
-Christ Jesus' sake she was ready to die. Being taken to the place of execution~
-she stood for a few moments as if in doubt, and then, the fire of the Holy Ghost~
-burning up in her heart, she broke from those that held her, and leapt of her~
-own accord into the flames. Her body was quickly consumed, and her soul departed~
-pure to obtain the eternal crown of martyrdom.
-&teDeum
-
-[Lectio94]
-Cyril of Alexandria was the nephew of Theophilus, bishop of Alexandria, and even~
-as a young man gave evidence of unusual brilliance. When Theophilus died, Cyril~
-succeeded to his see and, "becoming from the heart a pattern to the flock,"~
-gained glory as the best of shepherds. He shone in a special way in his zeal for~
-the integrity of the Catholic faith against Nestorius, the bishop of~
-Constantinople, who asserted that Jesus Christ was born of the Virgin Mary was a~
-man only and not as God, and that divinity had been added to Him for His merits.~
-After trying in vain to persuade Nestorius of the truth, Cyril denounced him to~
-pope St. Celestine. As the delegate of this pope he presided over many sessions~
-of the Council of Ephesus. In the council the Nestorian heresy was completely condemned and Nestorius himself deposed from his see, while the Catholic doctrine was proclaimed that in Christ there is but one Person and that Person divine, and that the glorious Virgin Mary is the Mother of God. Solicitous only for the faith and, as a result, enduring many things, Cyril accomplished great works for God's Church and published many writings. Finally he died a holy death in the year 444, the thirty-second year of his episcopate.
-&teDeum
+# [Lectio6] - A dictionary containing the lectio6 information
+# The key maps to a string containing the lectio6 text
+Lectio6 = {
+    None: 'As delegate of Pope Celestine, Cyril presided at the Council of Ephesus where~the Nestorian heresy was condemned; Nestorius deprived of his see; and the~Catholic doctrine as to the unity of Person in Christ and the divine Motherhood~of the glorious Virgin Mary was laid down amid the rejoicings of all the people,~who escorted the bishops
