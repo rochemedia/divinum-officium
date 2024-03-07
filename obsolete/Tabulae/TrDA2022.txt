@@ -1,10 +1,19 @@
-01-02=Tempora/Nat2-0;;
-02-12=Tempora/Epi6-0;;
-06-01=06-01;;
-06-23=X/X;;
-06-25=06-24;;
-08-12=08-12anticip;;
-08-13=08-14v-anticip;;
-10-30=10-DU;;
-12-30=Tempora/Nat1-0;;
-dirge=;;
+# Define the default values for each variable
+Tempora_Nat2 ?= Nat2-0
+Tempora_Epi6 ?= Epi6-0
+X_X ?= X/X
+X_Y ?= 06-01
+Tempora_Nat1 ?= Nat1-0
+dirge ?=
+
+# Define the actual values for each variable
+01-02 = $(Tempora_Nat2)
+02-12 = $(Tempora_Epi6)
+06-01 = $(X_Y)
+06-23 = $(X_X)
+06-25 = $(X_Y)
+08-12 = 08-12anticip
+08-13 = 08-14v-anticip
+10-30 = 10-DU
+12-30 = $(Tempora_Nat1)
+
