@@ -1,3 +1,8 @@
-01-09=Epi1-0a;;
-seant02-16=Quadp2-2;;
-seant02-17=Quadp2-0;;
+# This line sets a variable with the name '01-09' and assigns it the value 'Epi1-0a'.
+01-09 = 'Epi1-0a'
+
+# This line sets a variable with the name 'seant02-16' and assigns it the value 'Quadp2-2'.
+seant02-16 = 'Quadp2-2'
+
+# This line sets a variable with the name 'seant02-17' and assigns it the value 'Quadp2-0'.
+seant02-17 = 'Quadp2-0'
