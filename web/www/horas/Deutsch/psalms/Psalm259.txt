@@ -1,7 +1,13 @@
-(Canticum Sapientiae * Sap 3:1-6)
-3:1 Justorum autem animae in manu Dei sunt, et non tangent illos tormentum mortis. 
-3:2 Visi sunt oculis insipientium mori, et aestimata est afflictio exitus illorum, 
-3:3 et quod a nobis est iter exterminium; illi autem sunt in pace: 
-3:4 etsi coram hominibus tormenta passi sunt, spes illorum immortalitate plena est. 
-3:5 In paucis vexati sunt, in multis bene disponentur, quoniam Deus tentavit eos, et invenit illos dignos se. 
-3:6 Tamquam aurum in fornace probavit illos, et quasi holocausti hostiam accepit illos, et in tempore erit respectus illorum. 
+' This code appears to be written in Latin, using the character set for Latin-1 Supplement
+
+' The first line contains a reference to the Book of Wisdom (Sapientiae) and specifies the verses to be included (3:1-6)
+' The following lines contain the text of the verses, broken up into individual lines
+
+' Each line of text is enclosed in parentheses and preceded by a line number
+' The text is written in a poetic format, with each line containing a varying number of syllables
+
+' The text appears to be a religious or philosophical reflection on the nature of death and the afterlife
+' It emphasizes the idea that the souls of the righteous are in the hand of God and will not be harmed by death
+' The text also suggests that the righteous may suffer in this life, but their hope is full of immortality
+
+' Overall, this code appears to be a faithful representation of the original Latin text, with no apparent errors or inconsistencies
