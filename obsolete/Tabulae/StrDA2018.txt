@@ -1,11 +1,32 @@
-01-08=Epi1-0a;;
-01-26=Epi3-3~B;;
-07-03=Pent04-0~B;;
-09-19=093-1;;
-09-20=093-2;;
-09-21=093-4;;
-09-27=095-0;;
-09-28=095-1;;
-09-29=095-2;;
-11-23=114-4~B;;
-12-01=115-4~115-5~B;;
+# Variable '01-08' is assigned to the string value 'Epi1-0a;;'
+01-08 = 'Epi1-0a;;'
+
+# Variable '01-26' is assigned to the string value 'Epi3-3~B;;'
+01-26 = 'Epi3-3~B;;'
+
+# Variable '07-03' is assigned to the string value 'Pent04-0~B;;'
+07-03 = 'Pent04-0~B;;'
+
+# Variable '09-19' is assigned to the string value '093-1'
+09-19 = '093-1'
+
+# Variable '09-20' is assigned to the string value '093-2'
+09-20 = '093-2'
+
+# Variable '09-21' is assigned to the string value '093-4'
+09-21 = '093-4'
+
+# Variable '09-27' is assigned to the string value '095-0'
+09-27 = '095-0'
+
+# Variable '09-28' is assigned to the string value '095-1'
+09-28 = '095-1'
+
+# Variable '09-29' is assigned to the string value '095-2'
+09-29 = '095-2'
+
+# Variable '11-23' is assigned to the string value '114-4~B;;'
+11-23 = '114-4~B;;'
+
+# Variable '12-01' is assigned to the string value '115-4~115-5~B;;'
+12-01 = '115-4~115-5~B;;'
