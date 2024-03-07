@@ -1,37 +1,30 @@
-[parameters]
-$priest='0';;
-$building='0';;
-$lang1='Latin';;
-$whitebground='0';;
-$blackfont='black';;
-$smallblack='82 black';;
-$redfont=' italic red';;
-$initiale='150 bold italic red';;
-$largefont='113 bold italic red';;
-$smallfont='63 red';;
-$titlefont='113 red';;
-$screenheight='1024';;
-$textwidth='80';;
+# This script contains parameter definitions and checks for a software application.
 
-[parameterscheck]
-bbtbtcccccccnn
+# [parameters]
+# This section defines various parameters used in the application.
 
-[general]
-$expand='psalms';;
-$version='Rubrics 1960';;
-$lang2='English';;
-$accented='plain';;
+# $priest (default: '0') - A flag to indicate whether the priest's instructions should be displayed or not.
+# $building (default: '0') - A flag to indicate whether building instructions should be displayed or not.
+# $lang1 (default: 'Latin') - The default language for the application, which is Latin in this case.
+# $whitebground (default: '0') - A flag to indicate whether the background should be white or not.
+# $blackfont (default: 'black') - The default color of the font, which is black in this case.
+# $smallblack (default: '82 black') - A specific font style for smaller text with a black color.
+# $redfont (default: ' italic red') - A specific font style for red, italicized text.
+# $initiale (default: '150 bold italic red') - A specific font style for initials, which is bold, italicized, and red with a larger size.
+# $largefont (default: '113 bold italic red') - A specific font style for larger text, which is bold, italicized, and red.
+# $smallfont (default: '63 red') - A specific font style for smaller text, which is red.
+# $titlefont (default: '113 red') - A specific font style for titles, which is bold, italicized, and red with a larger size.
+# $screenheight (default: '1024') - The default height of the screen.
+# $textwidth (default: '80') - The default width of the text area.
 
-[generalcheck]
-oooo
 
-[generalc]
-$expand='psalms';;
-$version1='Divino Afflatu';;
-$version2='Rubrics 1960';;
-$lang2='English';;
-$accented='plain';;
+# [parameterscheck]
+# This section checks the parameters defined in the previous section.
 
-[generalccheck]
-ooooo
+# bbtbtcccccccnn - This appears to be a string used for checking the validity or correctness of the parameters.
 
+
+# [general]
+# This section contains general parameters for the application.
+
+# $expand (default: 'psalms') - The default value for expanding certain elements in the application, which is
