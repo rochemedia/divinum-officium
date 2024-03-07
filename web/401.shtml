@@ -1,7 +1,41 @@
-<html><head><title>401 Authorization Required</title></head>
-<body bgcolor=white>
-<h1>401 Authorization Required</h1>
-
-Invalid login credentials!
-
-</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <title>401 Authorization Required</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f5f5f5;
+    }
+    main {
+      text-align: center;
+    }
+    h1 {
+      font-size: 4rem;
+      color: #d32f2f;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.5rem;
+      color: #333;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>401 Authorization Required</h1>
+    <p>Invalid login credentials!</p>
+  </main>
+</body>
+</html>
