@@ -1,17 +1,19 @@
-@Tempora/Epi4-0
+# Service rank and title
+@Tempora/Epi4-0  # Unique identifier for the service
+[Rank]          # Denotes the beginning of the rank section
+Dominica IV Post Epiphaniam;;Simplex;;1  # The rank and title of the service
 
-[Rank]
-Dominica IV Post Epiphaniam;;Simplex;;1
+# Service structure and components
+[Rule]          # Denotes the beginning of the rule section
+3 lectiones    # Indicates that the service consists of three lectio(nes)
+Symbolum Athanasium  # A creed or hymn to be recited
 
-[Rule]
-3 lectiones
-Symbolum Athanasium
+# Individual lectio components
+[Lectio1]     # Denotes the beginning of the first lectio
+@Tempora/Epi4-0:Lectio7  # Unique identifier for the first lectio
 
-[Lectio1]
-@Tempora/Epi4-0:Lectio7
+[Lectio2]     # Denotes the beginning of the second lectio
+@Tempora/Epi4-0:Lectio8  # Unique identifier for the second lectio
 
-[Lectio2]
-@Tempora/Epi4-0:Lectio8
-
-[Lectio3]
-@Tempora/Epi4-0:Lectio9
+[Lectio3]     # Denotes the beginning of the third lectio
+@Tempora/Epi4-0:Lectio9  # Unique identifier for the third lectio
