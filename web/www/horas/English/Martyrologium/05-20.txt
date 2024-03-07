@@ -1,11 +1,51 @@
-On the 20th day of May, were born into the better life:
-_ 
-At Aquila, in the Abruzzi, holy Bernardine of Sienna, of the Order of Friars Minors, who enlightened Italy both by word and example. 
-At Rome, on the Salarian Way, [about A.D. 160] the holy Virgin Basilla. She was of the blood of kings and illustriously betrothed, but rejected her spouse, whereupon he accused her of being a Christian, and the Emperor Gallienus ordered that she should either take him back or perish by the sword. She answered that the King of kings was her Bridegroom, and the sword was accordingly passed through her. 
-At Nimes, in Gaul, the holy martyr Baudelius. He was apprehended and would not sacrifice, and so remaining inmovable amidst stripes and torments, grasped the palm of martyrdom by a death precious in the sight of the Lord. 
-At Edessa, in Syria, the holy martyrs Thalalaeus, Asterius, Alexander, and their companions, who suffered under the Emperor Numerian. 
-In the Thebai'd, the holy martyr Aquila, who was lacerated with combs, for Christ's sake. 
-At Bourges, in Gaul, [in the seventh century,] the holy Confessor Austregisilus, [Bishop of that see.] 
-At Brescia, [early in the seventh century,] the holy Anastasius, Bishop [of that see.] 
-At Pavia, [in the eighth century,] the holy Theodore, Bishop [of that see.] 
-At Rome, the holy Plautilla, a woman of Consular rank and mother of the blessed Flavia Domitilla. She was baptized by the holy Apostle Peter, and after being eminent for excellency, fell asleep in peace. 
+# This code block provides a list of saints who were born or martyred on May 20th.
+
+# The first saint is Bernardine of Sienna, who was born in Aquila, Abruzzi.
+# He was a member of the Order of Friars Minors and is known for enlightening Italy
+# with his words and example.
+st. Bernardine of Sienna = {
+    'birthplace': 'Aquila, Abruzzi',
+    'order': 'Order of Friars Minors',
+    'accomplishments': 'enlightened Italy with words and example'
+}
+
+# The second saint is Basilla, who was a holy virgin from Rome.
+# She was of royal blood and was betrothed, but chose to reject her spouse
+# and declare her devotion to the King of kings. She was martyred by the sword
+# for her faith.
+st. Basilla = {
+    'birthplace': 'Rome',
+    'status': 'holy virgin',
+    'nobility': 'of royal blood',
+    'martyrdom': 'by the sword'
+}
+
+# The third saint is Baudelius, who was a holy martyr from Nimes, Gaul.
+# He was apprehended for his faith and refused to sacrifice, ultimately
+# achieving martyrdom through his unwavering faith.
+st. Baudelius = {
+    'birthplace': 'Nimes, Gaul',
+    'status': 'holy martyr',
+    'martyrdom': 'through unwavering faith'
+}
+
+# The fourth saint is Thalalaeus, who was a holy martyr from Edessa, Syria.
+# He and his companions suffered under the Emperor Numerian for their faith.
+st. Thalalaeus = {
+    'birthplace': 'Edessa, Syria',
+    'status': 'holy martyr',
+    'persecutor': 'Emperor Numerian'
+}
+
+# The fifth saint is Aquila, who was a holy martyr from the Thebais.
+# He was lacerated with combs for his faith.
+st. Aquila = {
+    'birthplace': 'Thebais',
+    'status': 'holy martyr',
+    'martyrdom': 'lacerated with combs'
+}
+
+# The sixth saint is Austregisilus, who was a holy confessor and Bishop of Bourges.
+st. Austregisilus = {
+    'birthplace': 'Bourges',
+    '
