@@ -1,5 +1,5 @@
-130:1 Herre, mit hjerte er ikke hovmodigt, * mine øjne er ikke stolte.
-130:1 Jeg omgås ikke med store planer, * der er for underfulde for mig.
-130:2 Nej, jeg bringer min sjæl * til hvile og ro;
-130:2 Som barnet hos sin mor, som barnet * er min sjæl i mig.
-130:3 Israel, vent på Herren * fra nu af og til evig tid!
+130:1  Herre, mit hjerte er ikke hovmodigt, * mine øjne er ikke stolte.  # This line prints a statement of humility towards the "Herre"
+130:1  Jeg omgås ikke med store planer, * der er for underfulde for mig.  # This line expresses a lack of grand ambitions
+130:2  Nej, jeg bringer min sjæl * til hvile og ro;  # This line indicates a desire for peace and rest
+130:2  Som barnet hos sin mor, som barnet * er min sjæl i mig.  # This line uses the metaphor of a child at rest with its mother to describe the state of the soul
+130:3  Israel, vent på Herren * fra nu af og til evig tid!  # This line encourages the nation of Israel to wait for the Lord, both now and forever
