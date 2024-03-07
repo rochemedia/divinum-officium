@@ -1,8 +1,26 @@
-Upon the 27th day of February, were born into the better life:  
-_
-At Rome, the holy martyrs Alexander, Abundius, Antigonus, and Fortunatus. 
-At Alexandria, [in the year 250,] the holy martyr Julian. He was so crippled by the gout that he could neither walk nor stand, and was carried before the judge in a chair by two servants. Of these two servants one denied the faith the other, whose name was Eunus, persisted in confessing Christ along with Julian. They were both placed upon camels and led about the whole city, lashed, and at length publicly burnt upon a pyre. 
-There also the holy soldier Besas. He rebuked some who were jeering at the martyrs aforenamed, for which cause he was accused before the judge, and as he stood firm in the faith he was beheaded. 
-At Seville, in Spain, [in the year 596,] holy Leander, Bishop of that city, by whose preaching and labours, assisted by Reccared, King of the Visigoths, that nation were converted from the Arian misbelief to the Catholic faith. 
-At Constantinople, [in 750] the holy Confessors Basil and Procopius, who in the time of the Emperor Leo the Isaurian, contended valiantly for the honouring of holy images. 
-At Lyon, [about the year 660,] holy Baldomer, [locksmith and subdeacon,] the man of God whose grave is famous on account of the miracles which are oftentimes wrought there. 
+# This code block describes the saints who were born or martyred on the 27th day of February.
+
+# Rome: The holy martyrs Alexander, Abundius, Antigonus, and Fortunatus.
+# These saints were martyred in Rome on the 27th of February.
+# Their names are Alexander, Abundius, Antigonus, and Fortunatus.
+
+# Alexandria: The holy martyr Julian (in the year 250)
+# Julian was a holy martyr who was crippled by the gout and could neither walk nor stand.
+# He was carried before the judge in a chair by two servants.
+# One of the servants denied the faith, while the other, named Eunus, persisted in confessing Christ along with Julian.
+# Both Eunus and Julian were placed upon camels and led about the whole city, lashed, and at length publicly burnt upon a pyre.
+
+# Also at Alexandria, the holy soldier Besas
+# Besas was a holy soldier who rebuked some who were jeering at the martyrs aforenamed.
+# For this, he was accused before the judge and stood firm in the faith, for which he was beheaded.
+
+# Seville, Spain: Holy Leander, Bishop of that city (in the year 596)
+# Leander was a Bishop in Seville, Spain, who played a significant role in converting the nation from Arian misbelief to the Catholic faith.
+# He achieved this through his preaching and labors, assisted by Reccared, King of the Visigoths.
+
+# Constantinople: The holy Confessors Basil and Procopius (in 750)
+# Basil and Procopius were holy Confessors who contended valiantly for the honor of holy images during the time of the Emperor Leo the Isaurian.
+
+# Lyon: Holy Baldomer, locksmith and subdeacon (about the year 660)
+# Baldomer was a locksmith and subdeacon who was known as the man of God.
+# His grave is famous for the miracles that are often wrought there.
