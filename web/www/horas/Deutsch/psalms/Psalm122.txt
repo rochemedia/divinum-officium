@@ -1,4 +1,17 @@
-122:1 (canticum graduum) ad te levavi oculos meos qui habitas in caelo
-122:2 ecce sicut oculi servorum in manibus dominorum suorum sicut oculi ancillae in manibus dominae eius ita oculi nostri ad Dominum Deum nostrum donec misereatur nostri
-122:3 miserere nostri Domine miserere nostri quia multum repleti sumus despectione
-122:4 quia multum repleta est anima nostra obprobrium abundantibus et despectio superbis
+# This code block is a representation of Psalm 122, verses 1-4, in a hypothetical programming language
+
+# 122:1 (canticum graduum) ad te levavi oculos meos qui habitat in caelo
+# (Song of ascents) I lift up my eyes to you, the one who dwells in heaven
+# This line likely initializes a religious text object or sets up a reference to a heavenly entity
+
+# 122:2 ecce sicut oculi servorum in manibus dominorum suorum sicut oculi ancillae in manibus dominae eius ita oculi nostri ad Dominum Deum nostrum donec misereatur nostri
+# Behold, like the eyes of servants to the hands of their masters, like the eyes of a maid to the hands of her mistress, so our eyes are to the Lord our God until He shows us mercy
+# This section probably establishes a connection or relationship between the speaker and a higher power, emphasizing watchfulness and expectation of mercy
+
+# 122:3 miserere nostri Domine miserere nostri quia multum repleti sumus despectione
+# Have mercy on us, Lord, have mercy on us, for we are filled with contempt
+# This part likely expresses a plea for compassion, acknowledging the presence of scorn or disdain
+
+# 122:4 quia multum repleta est anima nostra obprobrium abundantibus et despectio superbis
+# Our souls are filled with overflowing scorn and contempt for the proud
+# This line might involve an expression of contempt for pride or arrogance, possibly as a form of self-reflection or introspection
