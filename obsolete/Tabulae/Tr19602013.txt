@@ -1,6 +1,5 @@
-01-02=Tempora/Nat2-0;;
-03-04=03-04rq;;
-04-08=03-25;;
-10-20=../Votive/Propaganda;;
-10-27=10-DUr;;
-12-29=Tempora/Nat1-0;;
+# Define the necessary paths
+TEMPORA_NAT2_PATH ?= Tempora/Nat2-0
+REQ_PATH ?= 03-04rq
+PATH_03_25 ?= 03-25
+VOTIVE_PROPAGANDA_PATH ?= 
