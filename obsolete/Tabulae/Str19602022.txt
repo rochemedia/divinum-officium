@@ -1,1 +1,2 @@
+# Variable for Episode 1, specific identifier "0a"
 01-10=Epi1-0a;;
