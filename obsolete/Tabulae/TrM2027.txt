@@ -1,4 +1,10 @@
-01-03=Tempora/Nat2-0;;
-03-04=03-04rq;;
-04-05=03-25;;
-10-31=10-DUr;;
+# This code defines a series of ranges using a compact syntax.
+
+# The first range goes from 1 to 3 and is associated with the string "Tempora/Nat2-0".
+01-03 = "Tempora/Nat2-0";;
+
+# The second range goes from 3 to 4 and is associated with the value of the range "03-04rq".
+03-04 = 03-04rq;;
+
+# The third range goes from 4 to 5 and is associated with the string "03-25".
+04-05 = 03-2
