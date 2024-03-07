@@ -1,11 +1,22 @@
+# This is a list of verses, where each verse is represented as a dictionary.
+# Each verse dictionary contains two keys: 'text' and 'number'.
+# The 'text' key holds the actual text of the verse as a string,
+# while the 'number' key contains the verse number as a string.
 verses = [
     {"text": "Min sjæl, pris Herren! * Herre, min Gud, du er stor!", "number": "103:1"},
     {"text": "Du er klædt i højhed og pragt; * du hyller dig i lys som en kappe,", "number": "103:1"},
     # ... continue for all verses
 ]
 
+# This is a function that takes a list of verses as an argument and prints
+# each verse in the format: verse_number verse_text
 def print_verses(verses):
+    
+    # This is a for loop that iterates through each verse in the verses list.
     for verse in verses:
+        
+        # This line prints the verse number and verse text in the desired format.
         print(f"{verse['number']} {verse['text']}")
 
+# This line calls the print_verses function and passes the verses list as an argument.
 print_verses(verses)
