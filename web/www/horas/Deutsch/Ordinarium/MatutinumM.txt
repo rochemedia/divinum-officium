@@ -1,19 +1,21 @@
-﻿#Incipit
-&Domine_labia
-_
-&psalm(3)
+-- Incipit: This is the starting point of the code.
 
-#Invitatorium
+-- &Domine_labia: This is a placeholder or label for a specific section of the code.
 
-#Hymnus
+-- #Invitatorium: This is a label for a section of the code, possibly a function or subroutine.
 
-#Psalmi cum lectionibus
+-- #Hymnus: This is a label for another section of the code.
 
-#Oratio
-_
-/:Das Folgende betet man nur, wenn sich die %Laudes% nicht unmittelbar anschließen.:/
+-- #Psalmi cum lectionibus: This is a label for a group of related code sections.
 
-#Conclusio
-&Dominus_vobiscum
-&Benedicamus_Domino
-$Fidelium animae
+-- #Oratio: This is a label for a section of the code that contains prayers or invocations.
+
+-- Commented out text: This section of the code is not currently being used, but may be useful in the future.
+
+-- #Conclusio: This is a label for the concluding section of the code.
+
+-- &Dominus_vobiscum: This is a closing or concluding statement.
+
+-- &Benedicamus_Domino: This is a closing or concluding statement.
+
+-- $Fidelium animae: This is a closing or concluding statement.
