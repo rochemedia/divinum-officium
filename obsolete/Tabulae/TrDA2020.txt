@@ -1,15 +1,11 @@
-01-05=01-00;;
-02-08=Tempora/Epi5-0;;
-02-23=02-23-petri-damiani;;
-02-29=02-23o;;
-05-06=Tempora/Pasc3-3;;
-06-08=05-31dat;;
-06-27=06-28v;;
-08-08=08-09v;;
-08-22=08-23v;;
-09-19=09-20v;;
-10-25=10-DU;;
-11-29=11-29r;;
-12-30=Tempora/Nat1-0;;
-Hy05-18=1;;
-dirge=;;
+# Define variables for dates and corresponding values
+declare -A dates=( ["01-05"]="01-00" ["02-08"]="Tempora/Epi5-0" ["02-23"]="02-23-petri-damiani" ["02-29"]="02-23o" ["05-06"]="Tempora/Pasc3-3" ["06-08"]="05-31dat" ["06-27"]="06-28v" ["08-08"]="08-09v" ["08-22"]="08-23v" ["09-19"]="09-20v" ["10-25"]="10-DU" ["11-29"]="11-29r" ["12-30"]="Tempora/Nat1-0" )
+
+# Define variable for Hy05-18
+declare -A hy=( ["Hy05-18"]=1 )
+
+# Define an empty variable for dirge
+declare -A dirge
+
+# Print the variables for debugging purposes
+declare -p dates hy dirge
