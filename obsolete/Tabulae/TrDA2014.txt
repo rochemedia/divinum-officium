@@ -1,10 +1,15 @@
-01-05=Tempora/Nat2-0;;
-02-15=Tempora/Epi6-0;;
-04-28=04-25;;
-10-26=10-DU;;
-11-03=11-02;;
-12-01=11-30;;
-12-22=12-21;;
-12-30=Tempora/Nat1-0;;
-Hy10-20=1;;
-dirge=;;
+# Define some useful variables
+Tempora/Nat2-0 = 01-05
+Tempora/Epi6-0 = 02-15
+Tempora/Nat1-0 = 12-30
+
+04-25 = 04-28
+10-DU = 10-26
+11-02 = 11-03
+11-30 = 12-01
+12-21 = 12-22
+
+# Define some other variables
+Hy10-20 = 1
+dirge =
+
