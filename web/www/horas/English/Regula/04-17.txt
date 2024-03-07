@@ -1,3 +1,51 @@
-04-17# The Rule of our Holy Father Benedict. Chapter 62: Concerning the Priests of the Monastery
-_
-If any abbot should wish to provide a priest or deacon for his monastery, let him choose from among his own monks one who is worthy to exercise the priesthood. And let the one ordained beware of self-importance and pride; and let him not presume to do anything except it be ordered him by the abbot, knowing himself much more subject to the discipline of the rule. And let him not on account of his priesthood be forgetful of the obedience and discipline of the rule, but let him progress in the Lord more and more. And let him always take that place which is his by seniority in the monastery, except as regards his service of the altar and unless by chance the choice of the community and the will of the abbot be pleased to promote him for his meritorious life; and even so let him know that the rules appointed him by the deans and provosts must be kept. But if he shall have presumed to act otherwise, let him be judged not as a priest but as rebellious; and if oft admonished he shall not correct himself, let the bishop himself at length be notified: but if even so he have not amended, his faults being manifest, let him be cast forth from the monastery, but only provided his contumacy shall have been such that he will not be subject to nor obey the rule.
+# Rule of our Holy Father Benedict, Chapter 62: Concerning the Priests of the Monastery
+
+def choose_priest(monks):
+    """
+    Chooses a worthy monk from the monastery to become a priest.
+
+    :param monks: A list of monks in the monastery
+    :return: A monk who is worthy to exercise the priesthood
+    """
+    # TODO: Implement function to choose a worthy monk
+    pass
+
+def priest_obedience(priest, abbot):
+    """
+    Enforces obedience and discipline for the ordained priest.
+
+    :param priest: The ordained priest
+    :param abbot: The abbot of the monastery
+    :return: None
+    """
+    priest.obey_abbot(abbot)
+    priest.avoid_pride()
+    priest.perform_services_as_ordered(abbot)
+    priest.maintain_rule_discipline()
+    priest.progress_in_lord()
+    priest.maintain_seniority()
+
+def promote_priest(priest, community, abbot):
+    """
+    Promotes the priest based on meritorious life.
+
+    :param priest: The ordained priest
+    :param community: The community of the monastery
+    :param abbot: The abbot of the monastery
+    :return: None
+    """
+    if community.chooses_priest_for_promotion(priest) and abbot.approves_promotion(priest):
+        priest.promote()
+        priest.follow_rules_appointed_by_deans_and_provosts()
+
+def punish_priest(priest, bishop, monastery):
+    """
+    Punishes the priest for disobedience.
+
+    :param priest: The ordained priest
+    :param bishop: The bishop of the diocese
+    :param monastery: The monastery where the priest resides
+    :return: None
+    """
+    if priest.has_disobeyed() and priest.has_not_corrected_himself():
+        b
