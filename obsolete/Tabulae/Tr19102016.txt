@@ -1,5 +1,4 @@
-01-03=Tempora/Nat2-0;;
-04-06=03-25;;
-07-03=07-01;;
-10-02=10-07;;
-12-30=Tempora/Nat1-0;;
+# Define the mapping in a more readable way
+declare -A map
+map[01-03]="Tempora/Nat2-0"
+map[04-0
