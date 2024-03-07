@@ -1,12 +1,33 @@
-01-04=Tempora/Nat2-0;;
-02-07=Tempora/Epi5-0;;
-06-08=05-31;;
-06-27=06-28v;;
-08-08=08-09v;;
-08-22=08-23o;;
-09-19=09-20v;;
-10-25=10-DU;;
-11-29=11-29r;;
-12-30=Tempora/Nat1-0;;
-Hy05-18=1;;
-dirge=;;
+# Event dates
+tempora_nat2_start = 2023-04-01
+tempora_epi5_start = 2023-07-02
+tempora_nat1_start = 2023-12-30
+
+may_18_happening = true
+
+# Event codes
+no_event = ""
+tempora_nat2 = "Tempora/Nat2-0"
+tempora_epi5 = "Tempora/Epi5-0"
+tempora_nat1 = "Tempora/Nat1-0"
+may_18 = "Hy05-18"
+
+# Event continuations
+v_suffix = "v"
+o_suffix = "o"
+du_suffix = "DU"
+r_suffix = "r"
+
+# Event dates mapping
+event_dates = {
+    tempora_nat2_start: tempora_nat2,
+    tempora_epi5_start: tempora_epi5,
+    "2023-05-18": may_18 if may_18_happening else no_event,
+    "2023-06-06": "05-31",
+    "2023-06-27": "06-28v",
+    "2023-08-08": "08-09v",
+    "2023-08-22": "08-23o",
+    "2023-09-19": "09-20v",
+    "2023-10-25": "10-DU",
+    "2023-11-29": "11-29r",
+}
