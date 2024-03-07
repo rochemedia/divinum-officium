@@ -1,30 +1,22 @@
-[Source]
-from the Psalter for the day of the week
-from the Psalter for the season of the Church year
-from the Proper of the season
-from the Proper of Saints
-from the Common or Feast
-Throughout the Year
-Psalms & Antiphons from Sunday
-Votive
+# This code appears to be a series of options for generating prayers and readings
+# for various occasions in a church calendar.
 
-[Preces]
-included
-omit
-special
+# The first section, "[Source]", specifies the source of the prayers and readings.
+# There are several options available, including daily prayers, prayers for specific
+# seasons or feast days, and common prayers.
 
-[Prima_Special]
-for feastday
-for weekdays
+# The "[Preces]" section allows the user to specify whether certain prayers are
+# included, omitted, or treated as "special".
 
-[Suffragium]
-omit
-default
-for Easter time
-Tridentine
+# The "[Prima_Special]" section provides options for the "Prima" prayer,
+# specifically for feast days and weekdays.
 
-[Lectio]
-Commemoration of the day
-Commemoration of Sunday
-Commemoration of the Saint
-Commemoration for Vigil of Epiphany
+# The "[Suffragium]" section allows the user to specify whether certain suffrages
+# are omitted or included, with different options available for Easter time and
+# according to the Tridentine calendar.
+
+# The "[Lectio]" section specifies the commemoration to be used for various occasions,
+# such as the day of the week, Sunday, a specific saint, or a vigil.
+
+# Overall, this code seems to be designed to provide flexibility and customization
+# in generating prayers and readings for a variety of church occasions.
