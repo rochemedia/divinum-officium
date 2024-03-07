@@ -1,3 +1,16 @@
-01-03=Tempora/Nat2-0;;
-04-05=03-25;;
-12-26=Tempora/Nat1-0;;
+# Define the variables
+NAT1_VERSION ?= 0
+NAT2_VERSION ?= 0
+
+# Define the rules
+01_03:
+	@echo "Tempora/Nat2-$($*_VERSION)"
+
+04_05:
+	@echo "03-25"
+
+12_26:
+	@echo "Tempora/Nat1-$($*_VERSION)"
+
+.PHONY: 01_03 04_05 12_26
+
