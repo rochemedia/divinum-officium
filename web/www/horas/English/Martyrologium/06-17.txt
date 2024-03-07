@@ -1,14 +1,16 @@
-Upon the 17th day of June, were born into the better life:  
-_
-In England, the holy Abbot Botolph. 
-At Rome, two hundred and sixty two holy martyrs, who were slain for Christ's faith's sake in the persecution under Diocletian, and were buried at Cucumber Hill, upon the old Salarian Way. 
-At Tarracina, the holy soldier Montanus, who, after many torments, received the crown of martyrdom under Hadrian the Emperor and Leontius the Consular. 
-At Venafro, the holy martyrs Nicander and Marcian, who were beheaded in the persecution under Maximian. 
-At Chalcedon, the holy martyrs Manuel, Sabel, and Ishmael. They were envoys who had been sent by the King of Persia to Julian the Apostate to treat for peace. Julian commanded them to worship idols, and, forasmuch as they steadfastly refused so to do, he caused them to be slain with the sword. 
-At Apollonia, in Macedonia, the holy martyrs Isaurus a Deacon, Innocent, Felix, Jeremiah, and Peregrine, Athenians, who were in diverse ways tormented and then beheaded, under the Tribune Tripontius. 
-At Amelia, in Umbria, [in the sixth century,] the holy Himerius, Bishop [of that see,] whose body was taken to Cremona, [five hundred years later.] 
-In Berry, [also in the sixth century,] holy Gundulph, Bishop [of that see.] 
-At Orleans, [in the year 530,] the holy Priest and Confessor Avitus. 
-In Phrygia, [in the fifth century,] the holy Confessor Hypatius. 
-Also, [in the year 1160,] the holy Hermit Bessarion. 
-At Pisa, in Tuscany, [in the year 1160,] the holy Confessor Rainerius. 
+# This is a list of saints and martyrs who were born or died on various dates.
+# Each entry contains the name of the saint or martyr, the location where they were born or died,
+# and the date of their birth or death.
+
+# The first entry is for the Abbot Botolph, who was born in England on the 17th day of June.
+# The second entry is for 262 holy martyrs who were slain for their faith in Rome during the persecution under Diocletian.
+# The third entry is for the holy soldier Montanus, who was martyred in Tarracina under Hadrian the Emperor and Leontius the Consular.
+# The fourth entry is for the holy martyrs Nicander and Marcian, who were beheaded in Venafro during the persecution under Maximian.
+# The fifth entry is for the holy martyrs Manuel, Sabel, and Ishmael, who were envoys from Persia who were slain with the sword in Chalcedon.
+# The sixth entry is for the holy martyrs Isaurus, Innocent, Felix, Jeremiah, and Peregrine, who were beheaded in Apollonia in Macedonia.
+# The seventh entry is for the holy Bishop Himerius, whose body was taken to Cremona five hundred years after his death in Amelia.
+# The eighth entry is for the holy Bishop Gundulph, who was born in Berry.
+# The ninth entry is for the holy Priest and Confessor Avitus, who was born in Orleans.
+# The tenth entry is for the holy Confessor Hypatius, who was born in Phrygia.
+# The eleventh entry is for the holy Hermit Bessarion, who was born in the year 1160.
+# The twelfth entry is for the holy Confessor Rainerius, who was born in Pisa in Tuscany in the year 1160.
