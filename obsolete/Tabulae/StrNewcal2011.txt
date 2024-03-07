@@ -1,2 +1,5 @@
+# Episode 1, Season 0 - Episode 1
 01-10=Epi1-0a;;
+
+# Season 2, Episode 25 - Season 2 Finale
 seant02-25=Quadp1-4;;
