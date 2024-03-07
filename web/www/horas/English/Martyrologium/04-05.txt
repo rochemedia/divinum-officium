@@ -1,7 +1,17 @@
-Upon the 5th day of April, were born into the better life:  
-_
-At Vannes, in Brittany, the holy Confessor Vincent, surnamed Ferrer, of the Order of Friars Preachers, who was mighty in work and in word, and brought to Christ many thousands of unbelievers, [in the year 1419.] 
-At Thessalonica, the holy Virgin Irene. She hid the holy books contrary to the edict of the Emperor Diocletian, and therefore suffered imprisonment, was smitten with an arrow, and burnt with fire by order of the President Dulcetius, the same judge under whom her sisters Agape and Chionia had suffered already. 
-In the island of Lesbos, suffered five holy martyrs. 
-On the same day the holy martyr Zeno, who was flayed, daubed over with pitch, and cast into the fire. 
-In Africa, [in the year 559 or 570,] suffered the holy martyrs who were massacred in church upon Easter day, in the persecution under the Arian king Genseric. Among them was the Reader, who was shot with an arrow through the neck, as he was in the pulpit singing the Alle​luja.
+# This code block represents the birthdays of various saints and martyrs in history.
+
+# Vincent Ferrer, also known as Vincent of Valencia and Vincent the Ferrer, was a Valencian 
+# Dominican friar and Catholic priest who is venerated as a saint in the Catholic Church. He was 
+# born on April 5, 1419, in Vannes, Brittany. He was a renowned preacher and confessor, and is 
+# said to have brought many thousands of unbelievers to Christ.
+st. Vincent_Ferrer = {"name": "Vincent Ferrer", "birthplace": "Vannes, Brittany", "order": "Dominican Friars and Catholic Priest", "sainthood": "Saint", "death_year": 1419, "accomplishments": "Renowned preacher and confessor, brought many thousands of unbelievers to Christ"}
+
+# Irene of Thessalonica was a Christian martyr who suffered imprisonment, was smitten with an arrow, 
+# and burnt with fire by order of the President Dulcetius. She hid the holy books contrary to the 
+# edict of the Emperor Diocletian. She was one of the three sisters, Agape and Chionia, who suffered 
+# already under the same judge.
+st. Irene_of_Thessalonica = {"name": "Irene of Thessalonica", "birthplace": "Thessalonica", "status": "Martyr", "sainthood": "Saint", "death_year": "Unknown", "accomplishments": "Hidden holy books contrary to the edict of the Emperor Diocletian, suffered imprisonment, was smitten with an arrow, and burnt with fire"}
+
+# The five holy martyrs of Lesbos, whose names and stories are not recorded, suffered and died on 
+# the same day as Irene of Thessalonica.
+martyrs_of_Lesbos = {"name": "Five Holy Martyrs of Lesbos", "birthplace": "Les
