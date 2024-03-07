@@ -1,40 +1,64 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
+use feature 'say';
+
+use Getopt::Long;
+my $ignore_case = 0;
+GetOptions("ignore-case" => \$ignore_case) or die "Error in command line arguments\n";
+
 $\ = "\n";
 
-# Find files with narrowly undesired windows-1252 data
-
-for my $file ( @ARGV )
+for my $file (@ARGV)
 {
+    find_bad_chars($file) or next;
+    print_result($file);
+}
+
+sub find_bad_chars {
+    my ($file) = @_;
+
     local $/;
-    if ( open IN, "<$file" )
+    if (open my $in_fh, "<", $file)
     {
-        my $data = <IN>;
-        close IN;
+        my $data = <$in_fh>;
+        close $in_fh;
 
-        if ( $data )
+        if ($data)
         {
-            my @bads = $data =~ /([^\x{01}-\x{7e}\x{86}\x{87}\x{8A}\x{8C}\x{8E}\x{91}-\x{94}\x{96}\x{97}\x{9A}\x{9C}\x{9E}\x{9F}\x{AB}\x{AE}\x{BB}\x{BF}-\x{D6}\x{D8}-\x{F6}\x{F8}-\x{FF}])/g;
+            my @bads = ();
+            if ($ignore_case) {
+                @bads = $data =~ /(\P{Print}|\p{Cntrl})/g;
+            } else {
+                @bads = $data =~ /([^\p{Print}\p{Cntrl}])/g;
+            }
 
-            if ( @bads )
+            if (@bads)
             {
-                my %bads;
-                $bads{sprintf('0x%x',ord $_)} = 1 for @bads;
-                print "$file : ". join(',',keys %bads)
+                %bads = map { sprintf('0x%x', ord $_) => 1 } @bads;
+                return \%bads;
             }
             else
             {
-                print "$file : clean";
+                return;
             }
         }
         else
         {
-            print "$file : empty";
+            return;
         }
     }
     else
     {
-        print "$file : can't read";
+        warn "$file : can't read\n";
+        return;
     }
 }
+
+sub print_result {
+    my ($file) = @_;
+
+    my $bads = find_bad_chars($file);
+    if ($bads)
+    {
+        say "$file
