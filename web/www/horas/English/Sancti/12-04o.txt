@@ -1,9 +1,21 @@
 [Rank]
 S. Barbara Virgin and Martyr;;Simplex;;1.1;;vide C6b
 
+// The 'Rank' section provides information about the saint being commemorated.
+// Here, it indicates that Saint Barbara is a Virgin and Martyr, with a rank of Simplex.
+// The version number is 1.1, and a reference is made to C6b.
+
 [Rule]
 vide C6b;
+
+// The 'Rule' section likely refers to a specific set of guidelines or rules to follow for this prayer.
+// In this case, it refers to 'C6b', which is probably a reference to a specific section or document.
 
 [Oratio]
 O God, who, among the many marvelous examples of thy power, hast given even to the weaker sex the victory of martyrdom; mercifully grant, that we who celebrate the birthday to immortality of blessed Barbara, thy virgin and martyr, may, through her example, proceed onward to thee.
 $Per Dominum
+
+// The 'Oratio' section contains the prayer itself.
+// It is addressed to God, acknowledging the power and marvels witnessed in the life of Saint Barbara.
+// The prayer requests mercy and guidance, inspired by the example set by Saint Barbara.
+// The prayer concludes with '$Per Dominum', which might be a specific liturgical or religious term.
