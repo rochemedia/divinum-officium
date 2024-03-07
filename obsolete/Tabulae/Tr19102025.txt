@@ -1,10 +1,12 @@
-01-05=Tempora/Nat2-0;;
-01-12=Tempora/Epi1-0a;;
-02-15=Tempora/Epi6-0;;
-02-22=02-23v;;
-04-28=04-25;;
-12-01=11-30;;
-12-22=12-21;;
-12-30=Tempora/Nat1-0;;
-Hy10-20=1;;
-dirge=;;
+# Define some useful variables
+NAT1 := Tempora/Nat1-0
+NAT2 := Tempora/Nat2-0
+EPI1 := Tempora/Epi1-0a
+EPI6 := Tempora/Epi6-0
+
+# Define the actual mappings
+01-05 := $(NAT2)
+01-12 := $(EPI1)
+02-15 := $(EPI6)
+02-22 := 02-23v
+02-23 := 
