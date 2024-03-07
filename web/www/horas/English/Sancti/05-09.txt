@@ -1,30 +1,61 @@
-[Rank]
-S. Gregorii Nazianzeni Episcopi Confessoris Ecclesiae Doctoris;;Duplex;;3;;vide C4a
+' [Rank] - Defines the rank of the saint in the liturgical calendar
+' S. Gregorii Nazianzeni Episcopi Confessoris Ecclesiae Doctoris - Saint Gregory Nazianzen, Bishop, Confessor, and Doctor of the Church
+' Duplex - Second rank in the liturgical calendar
+' 3 - The saint is commemorated on the 3rd day of the month
+' vide C4a - Cross-reference to another section of the code
 
-[Rank] (rubrica tridentina)
-S. Gregorii Nazianzeni Episcopi Confessoris;;Duplex;;3;;vide C4a
+' [Rank] (rubrica tridentina) - Defines the rank of the saint in the Tridentine liturgical calendar
+' S. Gregorii Nazianzeni Episcopi Confessoris - Saint Gregory Nazianzen, Bishop and Confessor
+' Duplex - Second rank in the liturgical calendar
+' 3 - The saint is commemorated on the 3rd day of the month
+' vide C4a - Cross-reference to another section of the code
 
-[Rule]
-vide C4a;
-9 lectiones
+' [Rule] - Defines the rule for the commemoration of the saint
+' vide C4a - Cross-reference to another section of the code
+' 9 lectiones - Nine readings are to be done for the commemoration of the saint
 
-[Name]
-Gregory
+' [Name] - Defines the name of the saint
+' Gregory - The name of the saint is Gregory
 
-[Oratio]
-@Commune/C4:Oratio2:s/N\./Gregory/
+' [Oratio] - Defines the prayer for the commemoration of the saint
+' @Commune/C4:Oratio2:s/N./Gregory/ - Uses a predefined prayer and replaces the name with Gregory
 
-[Lectio4]
-Gregory, to whom, is commonly given, on account of his extraordinary depth of sacred learning, the title of "the Divine", was a noble Cappadocian, born at Nazianzus in that country, and educated at Athens along with St. Basil, with whom likewise, when they had acquired knowledge in diverse branches of earthly learning, he gave himself up to learn the things of God. This they did for some years in a Monastery, framing their opinions, not out of their own heads, but according to the interpretation arrived at by the wisdom and decision of the ancients. They were both distinguished by power of doctrine and holiness of life, they were both called to the duty of preaching the Gospel of truth and, through the Gospel. they both begat many sons unto Christ.
+' [Lectio4] - Defines the fourth reading for the commemoration of the saint
+' Gregory, to whom, is commonly given, on account of his extraordinary depth of sacred learning, the title of "the Divine" - Description of the saint
+' was a noble Cappadocian, born at Nazianzus in that country, and educated at Athens along with St. Basil - Early life of the saint
+' with whom likewise, when they had acquired knowledge in diverse branches of earthly learning, he gave himself up to learn the things of God - Turning to the sacred sciences
+' They were both distinguished by power of doctrine and holiness of life, they were both called to the duty of preaching the Gospel of truth and, through the Gospel. they both begat many sons unto Christ - Achievements of the saint and St. Basil
 
-[Lectio5]
-Gregory after a while returned home. He was first made Bishop of Sasima, and afterwards administered the Church at Nazianzus. Then he was called to rule the Church of Constantinople. That city, which he found reeking with heresy, he purged, and brought again to the Catholic faith. But this, which deserved for him the warmest love of all men, raised up many enemies. Among the Bishops themselves there was a great party against him, and to still their contentions, he, of his own free will, gave up his see, saying with the Prophet Jonah: "Take me up, and cast me forth into the sea so shall the sea be calm unto you for I know that for my sake this great tempest is upon you," (i. 12.) So he went his way back again to Nazianzus, and when he had seen that Eulalius was set over that Church, he gave himself up altogether to think and write concerning the things of God.
+' [Lectio5] - Defines the fifth reading for the commemoration of the saint
+' Gregory after a while returned home - Returning to Nazianzus
+' He was first made Bishop of Sasima, and afterwards administered the Church at Nazianzus - Ecclesiastical duties of the saint
+' Then he was called to rule the Church of Constantinople - Ruling the Church of Constantinople
+' That city, which he found reeking with heresy, he purged, and brought again to the Catholic faith - Purifying the Church of Constantinople
+' But this, which deserved for him the warmest love of all men, raised up many enemies - Enemies of the saint
+' Among the Bishops themselves there was a great party against him - Opposition from other bishops
+' and to still their contentions, he, of his own free will, gave up his see - Resigning the See of Constantinople
+' saying with the Prophet Jonah: "Take me up, and cast me forth into the sea so shall the sea be calm unto you for I know that for my sake this great tempest is upon you," (i. 12.) - Quoting the Prophet Jonah
+' So he went his way back again to Nazianzus - Returning to Nazianzus
+' and when he had seen that Eulalius was set over that Church, he gave himself up altogether to think and write concerning the things of God - Arranging for the Church of Nazianzus and returning to the sacred sciences
 
-[Lectio6]
-He wrote much, both in prose and verse, with wonderful godliness and eloquence. According to the judgment of learned and holy men, there is nothing in his writings which anywhere strays from the line of true godliness and Catholic truth, and not a single word which any one can justly call in doubt. He was one of the latest champions of the doctrine that the Son is of one substance with~
-the Father. No one has ever won greater praise for goodness of life, neither was~
-any man more earnest in prayer. During the reign of the Emperor Theodosius, he dwelt in the country after the manner of a monk, and unceasingly taken up with writing and reading, until, in a good old age, he laid down his earthly, to enter on an heavenly life.
+' [Lectio6] - Defines the sixth reading for the commemoration of the saint
+' He wrote much, both in prose and verse, with wonderful godliness and eloquence - Writings of the saint
+' According to the judgment of learned and holy men, there is nothing in his writings which anywhere strays from the line of true godliness and Catholic truth - Evaluation of the saint's writings
+' and not a single word which any one can justly call in doubt - Further evaluation of the saint's writings
+' He was one of the latest champions of the doctrine that the Son is of one substance with~
+the Father - Defending the consubstantiality of the Son with the Father
+' No one has ever won greater praise for goodness of life - Evaluation of the saint's life
+' neither was~
+any man more earnest in prayer - Evaluation of the saint's prayers
+' During the reign of the Emperor Theodosius, he dwelt in the country after the manner of a monk - Living as a monk during the reign of Emperor Theodosius
+' and unceasingly taken up with writing and reading, until, in a good old age, he laid down his earthly, to enter on an heavenly life - Writing and reading until his death
 
-[Lectio94]
-Gregory Nazianzus, a noble Cappadocian, earned the name of The Divine from his extraordinary knowledge of the sacred sciences. It was to these that he turned after being educated at Athens, together with St. Basil, in every branch of learning. He was first made Bishop of Sosima and then administered the Church of Nazianzus. Summoned to rule over the Church of Constantinople, he purged the city of heretical errors and brought it back to the Catholic faith. Although this deed should have won him the love of all, it earned him the hatred of many; so that, when a great quarrel had arisen among the bishops on his account, he resigned his See voluntarily, making his own the words of the prophet Jonah: If this storm hath arisen on my account, then throw me into the sea, that you may cease to be tossed about. He returned to Nazianzus, and having arranged that Eulalius should be its bishop, devoted himself wholly to prayer and the study of divine things. He wrote many famous works, both in prose and in verse, and was a most ardent defender of the doctrine of the consubstantiality of the Son with the Father. When Theodosius was emperor, Gregory, now grown old, departed to the life of heaven.
-&teDeum
+' [Lectio94] - Defines the ninety-fourth reading for the commemoration of the saint
+' Gregory Nazianzus, a noble Cappadocian, earned the name of The Divine from his extraordinary knowledge of the sacred sciences - Description of the saint
+' It was to these that he turned after being educated at Athens, together with St. Basil, in every branch of learning - Turning to the sacred sciences
+' He was first made Bishop of Sosima and then administered the Church of Nazianzus - Ecclesiastical duties of the saint
+' Summoned to rule over the Church of Constantinople, he purged the city of heretical errors and brought it back to the Catholic faith - Ruling the Church of Constantinople
+' Although this deed should have won him the love of all, it earned him the hatred of many - Enemies of the saint
+' so that, when a great quarrel had arisen among the bishops on his account, he resigned his See voluntarily - Resigning the See of Constantinople
+' making his own the words of the prophet Jonah: If this storm hath arisen on my account, then throw me into the sea, that you may cease to be tossed about - Quoting the Prophet Jonah
+' He returned to Nazian
