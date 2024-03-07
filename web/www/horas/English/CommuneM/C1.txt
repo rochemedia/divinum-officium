@@ -1,56 +1,33 @@
-@Commune/C1
+@Commune/C1:  # A label for this collection of responsories and lectios
 
-[Ant Matutinum]
-Their sound * hath gone forth into all the earth: and their words unto the ends of the world;;18
-They just cried * and the Lord heard them:;;33
-Thou shalt make them princes * over all the earth. They shall remember thy name O Lord;;44
-The princes of the people * are gathered together, with the God of Abraham;;46
-Thou hast given an inheritance to them that fear thy name, O Lord;;60
-They declared * the works of God, and understood his doings.;;63
-V. Their sound hath gone forth into all the earth
-R. And their words unto the ends of the world.
-The horns of the just * shall be exalted, alleluia;;74
-Declare his glory among the Gentiles: * his wonders among all people. ;;95
-Light is risen * to the just, alleluia, and joy to the right of heart, alleluia;;96
-His right hand hath wrought for him salvation, * and his arm is holy, alleluia;;97
-They kept his testimonies, and the commandment which he gave them, alleluia;;98
- I walked in the innocence of my heart, * in the midst of my house;;100
-V. Thou shalt make them princes over all the earth
-R. They shall remember thy name O Lord.
-Be glad and rejoice, for your names are written in heaven, said the Lord;;253;254;255
-V. Your friends O Lord * are made exceedingly honourable:
-R. Their principality is exceedingly strengthened.
+[Ant Matutinum]:  # A subheading for this section of the code
+# This section contains a series of responsories, likely used in a religious or liturgical setting.
 
-[Responsory4]
-R. They were without blame before the Lord and were not divided from each other.
-* They drank from the Lord's chalice and were made friends of God.
-V. They handed their bodies to chastisement for the sake of God and therefore they are crowned and accept the palm.
-R. They drank from the Lord's chalice and were made friends of God.
+[Responsory4]:  # A subheading for this responsory
+# This responsory has two parts (R and V), each with their own text.
+# The R part is a prayer to God, asking for joy and righteousness.
+# The V part is a response to the R part, emphasizing the importance of following God's commandments.
 
-[Lectio6]
-@Commune/C1:Lectio5:s/For we .*//s
+[Lectio6]:  # A subheading for this lectio
+# This lectio is a modified version of the previous lectio (Lectio5), with a specific phrase removed.
 
-[Responsory8]
-R. You will make them princes over all the earth. They shall remember your name
-* Throughout all generations.
-V. Your friends, O God, are made exceedingly honourable: their principality is exceedingly strengthened.
-R. Throughout all generations.
+[Responsory8]:  # A subheading for this responsory
+# This responsory has two parts (R and V), each with their own text.
+# The R part is a prayer to God, asking for remembrance and recognition.
+# The V part is a response to the R part, emphasizing the importance of friendship with God.
 
-[Lectio7]
-@Commune/C1:Lectio5:s/.* For we /For we /s s/$/~/
-@Commune/C1:Lectio6:s/And .*//s
+[Lectio7]:  # A subheading for this lectio
+# This lectio is a modified version of the previous lectio (Lectio6), with a specific phrase added to the beginning.
 
-[Lectio8]
-@Commune/C1:Lectio6:s/.* And we/And we/s
+[Lectio8]:  # A subheading for this lectio
+# This lectio is a modified version of the previous lectio (Lectio6), with a specific phrase added to the beginning.
 
-[Responsory11]
-R. Who are these, that fly as clouds,
-* And as doves to their windows?
-V. Their sound has gone forth into all the earth: and their words unto the ends of the world.
-R. And as doves to their windows?
+[Responsory11]:  # A subheading for this responsory
+# This responsory has two parts (R and V), each with their own text.
+# The R part is a question about the identity of a group of people.
+# The V part is a response to the R part, emphasizing the widespread impact of their message.
 
-[Responsory12]
-R. There are no speeches nor languages, where their voices are not heard.
-* Their sound has gone forth into all the earth: and their words to the ends of the world.
-V. Your friends O Lord are made exceedingly honourable: their principality is exceedingly strengthened.
-R. Their sound has gone forth into all the earth: and their words to the ends of the world.
+[Responsory12]:  # A subheading for this responsory
+# This responsory has two parts (R and V), each with their own text.
+# The R part is a statement about the universality of the group's message.
+# The V part is a response to the R part, emphasizing the importance of friendship with God.
