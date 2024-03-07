@@ -1,12 +1,19 @@
-# Circumcision to St Hilary
+# Define a range of dates for the period from January 1, 2016 to January 14, 2016
+# This range likely corresponds to the feast of Circumcision to Quinquagesima
 1-1-2016:1-14-2016
-# Quinquagesima to Saturday of the first week of Lent
+
+# Define a range of dates for the period from February 7, 2016 to February 20, 2016
+# This range likely corresponds to Quinquagesima to the Saturday of the first week of Lent
 2-7-2016:2-20-2016
-# Sitientes to Low Monday
+
+# Define a range of dates for the period from March 12, 2016 to April 4, 2016
+# This range likely corresponds to Sitientes to Low Monday
 3-12-2016:4-4-2016
-# Ascension to Monday of first week after the octave of Pentecost
+
+# Define a range of dates for the period from May 5, 2016 to May 23, 2016
+# This range likely corresponds to Ascension to Monday of the first week after the octave of Pentecost
 5-5-2016:5-23-2016
-# XVII. and XVIII. weeks after the octave of Pentecost; latter is ember week
-9-11-2016:9-24-2016
-# III. week of Advent
-12-11-2016:12-17-2016
+
+# Define a range of dates for the period from September 11, 2016 to September 24, 2016
+# This range likely corresponds to the seventeenth and eighteenth weeks after the octave of Pentecost, with the latter being an ember week
+9-11-2016:9-24-2
