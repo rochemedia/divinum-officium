@@ -1,6 +1,21 @@
 
-# These files relate to how the application is deployed and run - requires infra team approval before merge
+# These files relate to the application's deployment and running, and require infra team's approval before merge
 
-Dockerfile @DivinumOfficium/infrastructure-team
-docker @DivinumOfficium/infrastructure-team
-.github/ @DivinumOfficium/infrastructure-team
+# Docker configuration
+Dockerfile 
+docker-compose.yml
+.dockerignore
+
+# GitHub workflow files
+.github/workflows/docker-build.yml
+.github/workflows/docker-push.yml
+
+# Infrastructure team's approval is required for these files
+# Please submit a pull request and wait for their approval before merging
+
+# Docker image repository
+.docker/config.json
+
+# Infrastructure team's files
+.infrastructure-team/
+
