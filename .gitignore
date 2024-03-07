@@ -1,16 +1,25 @@
-# vagrant files
-.vagrant
+# This is a list of files and directories to be ignored by version control systems
+# such as Git. These files and directories are either generated at runtime,
+# specific to a user or environment, or are not necessary for the project.
+
+# .vagrant - directory containing information about Vagrant environment
+.vagrant/
+
+# Vagrantfile - configuration file for Vagrant
 Vagrantfile
 
-# Docker compose override
+# docker-compose.override.yml - Docker Compose override file
 docker-compose.override.yml
 
-# Temporary files created by nano
-.*.swp
+# .*.swp - temporary files created by nano text editor
+*.swp
 
-# Generated files
-standalone/tools/epubgen2/output
+# standalone/tools/epubgen2/output - directory containing generated output files
+standalone/tools/epubgen2/output/
 
-# dev tools
-.idea
+# .idea - directory containing IntelliJ IDEA project-specific settings
+.idea/
+
+# .DS_Store - Apple Double file used to store custom view settings of a folder
 .DS_Store
+
