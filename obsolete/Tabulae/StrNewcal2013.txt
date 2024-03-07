@@ -1,3 +1,10 @@
-01-14=Epi1-0a;;
-seant02-07=Quadp2-1;;
-seant02-08=Quadp2-2;;
+# This code defines three variables using the semicolon (;) as a statement separator.
+
+# The first variable is named '01-14' and is assigned a string value 'Epi1-0a'.
+01-14 = 'Epi1-0a' ;;
+
+# The second variable is named 'seant02-07' and is assigned a string value 'Quadp2-1'.
+seant02-07 = 'Quadp2-1' ;;
+
+# The third variable is named 'seant02-08' and is assigned a string value 'Quadp2-2'.
+seant02-08 = 'Quadp2-2' ;;
