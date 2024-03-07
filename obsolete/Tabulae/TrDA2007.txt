@@ -1,10 +1,43 @@
-01-02=Tempora/Nat2-0;;
-02-03=Tempora/Epi5-0;;
-03-26=03-25;;
-04-26=04-25;;
-06-04=05-31;;
-10-28=10-DU;;
-10-29=10-28;;
-12-30=Tempora/Nat1-0;;
-Hy05-18=1;;
-dirge=;;
+# Define variables for date ranges
+tempora_nat2="01-02"  # Tempora/Nat2-0
+tempora_epi5="02-03"  # Tempora/Epi5-0
+days_of_year="03-25 04-25 05-31 10-DU 10-28"
+
+# Set values for specific dates
+value_for_hy05_18=1
+dirge=""
+
+# Set values for date ranges
+for range in $tempora_nat2 $tempora_epi5 $days_of_year; do
+  start=$(echo $range | cut -d'-' -f1)
+  end=$(echo $range | cut -d'-' -f2)
+  value="0"
+  for day in $(seq -f "%02g" $start $end); do
+    eval "day_var=day0$day"
+    eval "value=\$${day_var:-0}"
+  done
+  for day in $(seq -f "%02g" $start $end); do
+    eval "day_var=day$day"
+    eval "${day_var}=$value"
+  done
+done
+
+# Print the resulting variables
+for day in {01..31}; do
+  eval "day_var=day0$day"
+  eval "value=\$${day_var:-0}"
+  if [ $value -ne 0 ]; then
+    echo "day0$day: $value"
+  fi
+done
+for month in {01..12}; do
+  for day in {01..31}; do
+    eval "day_var=day$month-$day"
+    eval "value=\$${day_var:-0}"
+    if [ $value -ne 0 ]; then
+      echo "$month-$day: $value"
+    fi
+  done
+done
+echo "Hy05-18: $value_for_hy05_18"
+echo "dirge: $dirge"
