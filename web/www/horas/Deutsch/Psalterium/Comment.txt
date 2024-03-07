@@ -1,30 +1,22 @@
-[Source]
-aus dem Psalterium, für den Wochentag
-aus dem Psalterium, gemäß der Zeit des Herrenjahres
-aus dem Proprium des Herrenjahres
-aus dem Proprium der Heiligen
-aus dem Commune oder vom Fest
-Im Jahreskreis
-Psalmen und Antiphonen vom Sonntag
-Votiv
+-- Table: BreviaryPrayers
+CREATE TABLE BreviaryPrayers (
+    PrayerType VARCHAR(20) NOT NULL,
+    OccasionType VARCHAR(30) NOT NULL,
+    SpecialType VARCHAR(20) NULL,
+    Occasion VARCHAR(30) NULL,
+    Prayer TEXT NOT NULL
+);
 
-[Preces]
-werden gebetet
-werden ausgelassen
-eigen
+-- Check constraints
+CONSTRAINT chk_PrayerType CHECK (PrayerType IN ('Psalterium', 'Preces', 'Prima_Special', 'Suffragium', 'Lectio')),
+CONSTRAINT chk_OccasionType CHECK (OccasionType IN ('Wochentag', 'Herrenjahres', 'Proprium', 'Heiligen', 'Commune', 'Fest', 'Jahreskreis', 'Sonntag', 'Votiv', 'Tridentinisch')),
+CONSTRAINT chk_SpecialType CHECK (SpecialType IN ('Festtage', 'Wochentage', 'Osterzeit', 'eigen', NULL));
 
-[Prima_Special]
-für Festtage
-für Wochentage
-
-[Suffragium]
-wird ausgelassen
-normal
-für die Osterzeit
-Tridentinisch
-
-[Lectio]
-Kommemoration des Wochentages
-Kommemoration des Sonntags
-Kommemoration des Heiligenfestes
-Kommemoration für die Vigil von Epiphanie
+-- Sample data
+INSERT INTO BreviaryPrayers (PrayerType, OccasionType, SpecialType, Occasion, Prayer) VALUES 
+('Psalterium', 'Herrenjahres', NULL, 'Advent', 'Psalmen und Antiphonen vom Advent'),
+('Psalterium', 'Heiligen', NULL, 'Allerheiligen', 'Psalmen und Antiphonen von Allerheiligen'),
+('Preces', NULL, 'eigen', NULL, 'werden gebetet'),
+('Prima_Special', 'Festtage', NULL, NULL, 'für Festtage'),
+('Suffragium', NULL, 'Tridentinisch', NULL, 'wird ausgelassen'),
+('Lectio', 'Sonntag', NULL, NULL, 'Kommemoration des Sonntags');
