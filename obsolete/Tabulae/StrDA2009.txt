@@ -1,13 +1,28 @@
-01-12=Epi1-0a;;
-02-06=Epi4-4~B;;
-02-07=Epi5-2~Epi5-4~A;;
-seant02-19=Quadp2-2;;
-05-04=Pasc3-0~B;;
-06-09=Pent01-1~B;;
-08-17=083-0~B;;
-09-16=093-1;;
-10-26=104-0~B;;
-10-29=105-1;;
-10-30=105-2;;
-11-03=111-0~B;;
-11-20=114-6~A;;
+# Assign the value "Epi1-0a;;" to the variable named "01-12"
+01-12 = "Epi1-0a;;"
+
+# Assign the value "Epi4-4~B;;" to the variable named "02-06"
+02-06 = "Epi4-4~B;;"
+
+# Assign the value "Epi5-2~Epi5-4~A;;" to the variable named "02-07"
+02-07 = "Epi5-2~Epi5-4~A;;"
+
+# Assign the value "Quadp2-2" to the variable named "seant02-19"
+seant02-19 = "Quadp2-2"
+
+# Assign the value "Pasc3-0~B;;" to the variable named "05-04"
+05-04 = "Pasc3-0~B;;"
+
+# Assign the value "Pent01-1~B;;" to the variable named "06-09"
+06-09 = "Pent01-1~B;;"
+
+# Assign the value "083-0~B;;" to the variable named "08-17"
+08-17 = "083-0~B;;"
+
+# Assign the value "093-1" to the variable named "09-16"
+09-16 = "093-1"
+
+# Assign the value "104-0~B;;" to the variable named "10-26"
+10-26 = "104-0~B;;"
+
+# Assign the value "105-1" to the variable named "1
