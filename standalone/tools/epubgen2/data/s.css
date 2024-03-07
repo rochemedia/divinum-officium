@@ -1,1 +1,30 @@
-.rg {color: gray;}.rb {color: blue;}.rd {color: red;}.m {color: maroon;}.cen {text-align: center;}.c {font-size:113%; color:maroon;}.s {   font-size: 82%; font-style: italic;}.w {font-size: 82%;}.ri{color: red; font-style: italic;}i {color: red;font-size: 113%;}b {color: red;font-size: 113%;font-style: italic;font-weight: bold;}em {color: red;font-size: 63%;}i.a {color: red;font-size: 150%;font-style: italic;font-weight: bold;}.r {color: red;font-size: 63%;}.lang1 {width: 54%; display: table-cell; vertical-align: top; padding-right: 10pt; border-right: 1pt solid;}.lang2 {width: 44%; display: table-cell; vertical-align: top; padding-left: 10pt; font-size: 80%; line-height: 1.2;}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorized Syntax</title>
+  <style>
+    /* Define custom colors for different elements */
+    .rg {color: gray;} /* Generic gray */
+    .rb {color: blue;} /* Ruby (Ruby language) */
+    .rd {color: red;} /* Red (Red language) */
+    .m {color: maroon;} /* Markdown */
+    .cen {text-align: center;} /* Centered text */
+    .c {font-size:113%; color:maroon;} /* Class definition */
+    .s {font-size: 82%; font-style: italic;} /* String */
+    .w {font-size: 82%;} /* Word (Ruby word) */
+    .ri{color: red; font-style: italic;} /* Red italic (Ruby rest) */
+    i {color: red;font-size: 113%;} /* Important */
+    b {color: red;font-size: 113%;font-style: italic;font-weight: bold;} /* Bold and italic */
+    em {color: red;font-size: 63%;} /* Emphasized text */
+    i.a {color: red;font-size: 150%;font-style: italic;font-weight: bold;} /* Important announcement */
+    .r {color: red;font-size: 63%;} /* Reduced font size */
+
+    /* Define language-specific styles */
+    .lang1 {
+      width: 54%; /* 54% for language 1, 44% for language 2 */
+      display: table-cell;
+      vertical-align: top;
+      padding-right: 10pt;
+      border-right
