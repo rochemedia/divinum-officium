@@ -1,7 +1,16 @@
-01-03=Tempora/Nat2-0;;
-01-30=Tempora/Epi4-0;;
-10-30=10-31v;;
-10-31=10-DU;;
-11-29=11-29r;;
-12-30=Tempora/Nat1-0;;
-dirge=;;
+# Define the variables for month-day combinations
+Tempora_Nat2 := 01-03
+Tempora_Epi4 := 01-30
+Tempora_Nat1 := 12-30
+
+# Define the variables for other month-day combinations
+Month10_Day31 := 10-31
+Month11_Day29 := 11-29
+
+# Define the variables for the version and directory
+Version := 10-31v
+Directory := 10-DU
+
+# Define an empty variable for dirge
+dirge :=
+
