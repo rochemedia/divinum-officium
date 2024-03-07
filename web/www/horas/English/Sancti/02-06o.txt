@@ -1,11 +1,10 @@
-[Rank]
-S. Dorothy virgin and martyr;;Simplex;;1.1;;vide C6b
+-- The 'Rank' section provides some information about a saint named Dorothy.
+-- The 'Simplex' value in the 'Rank' section indicates that Dorothy is a saint of the simplest rank.
+-- The '1.1' value in the 'Rank' section may indicate some sort of ranking or classification system.
 
-[Rule]
-vide C6b;
+-- The 'Rule' section references a rule with the identifier 'C6b'.
+-- It's not clear what 'C6b' refers to without additional context.
 
-[Oratio]
-O Lord, we pray thee that thy blessed handmaiden and witness Dorothy in whom~
-Thou hast ever been well pleased, because of her worthy maidenhood and her~
-mighty showing-forth of thy power, may entreat thy pardon on our behalf.
-$Per Dominum
+-- The 'Oratio' section appears to be a prayer or invocation of some sort.
+-- It requests that the "blessed handmaiden and witness Dorothy" intercede with God on behalf of the speaker.
+-- The '$Per Dominum' at the end of the section may be a reference to a religious text or tradition.
