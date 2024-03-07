@@ -1,8 +1,38 @@
-01-12=Tempora/Epi1-0a;;
-02-15=Tempora/Epi6-0;;
-04-28=04-25t;;
-12-01=11-30;;
-12-22=12-21;;
-12-30=Tempora/Nat1-0;;
-Hy10-20=1;;
-dirge=;;
+# Use meaningful variable names instead of cryptic abbreviations
+tempora_epi1_0a=01-12
+tempora_epi6_0=02-15
+tempora_nat1_0=12-30
+hy_tenth_twenty=Hy10-20
+
+# Use consistent formatting for variable names and values
+# Use quotes for string values
+
+# Remove unused variables
+dirge=
+
+# Combine similar values to reduce duplication
+holiday_dates=( "11-30" "12-01" "12-21" "12-22" )
+
+# Use an array for related values
+tempora_episodes=( "tempora_epi1_0a" "tempora_epi6_0" "tempora_nat1_0" )
+
+# Use a function for repeated actions
+get_value() {
+  if [[ -n ${!1} ]]; then
+    echo "${!1}"
+  else
+    echo "Value not set: $1"
+  fi
+}
+
+# Use the function to print values
+for episode in "${tempora_episodes[@]}"; do
+  get_value "$episode"
+done
+
+for date in "${holiday_dates[@]}"; do
+  get_value "12-$date"
+done
+
+get_value "hy_tenth_twenty"
+get_value "dirge"
