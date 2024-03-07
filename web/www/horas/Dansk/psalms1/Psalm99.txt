@@ -1,3 +1,7 @@
-99:1 Jump into the joyful song for the Lord, all the earth! * Serve the Lord with gladness,
-99:2 Come before him * with joyful noise!
-9
+# This code is a script for a joyful song to the Lord.
+# It encourages the earth to serve the Lord with gladness and joyful noise.
+
+99:1 # Call to action for all the earth to join in the joyful song for the Lord. 
+       # Encourages serving the Lord with gladness.
+
+99:2 # Instruction to approach the Lord with a joyful noise.
