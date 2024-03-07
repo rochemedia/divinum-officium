@@ -1,8 +1,18 @@
-01-13=Tempora/Epi1-0a;;
-03-31=03-25;;
-05-02=05-01t;;
-12-01=11-30;;
-12-22=12-21;;
-12-30=Tempora/Nat1-0;;
-Hy10-20=1;;
-dirge=;;
+# Define the variables with meaningful names
+tempora_epi1_0a=01-13
+tempora_nat1_0=12-30
+hy_10-20=1
+dirge=
+
+# Set the dates as variables
+march_31=03-25
+may_01=05-01
+november_30=11-30
+december_21=12-22
+
+# Assign the values to the variables
+: ${tempora_epi1_0a:="Tempora/Epi1-0a"}
+: ${tempora_nat1_0:="Tempora/Nat1-0"}
+: ${may_01:="05-01t"}
+: ${december_21:="12-21"}
+
