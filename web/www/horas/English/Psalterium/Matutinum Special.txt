@@ -1,4 +1,8 @@
-# Invit texts
+# Invit texts dictionary
+# This dictionary contains various invit texts for different occasions
+# Each key in the dictionary corresponds to a specific invit text
+# The values associated with each key are strings containing the invit text
+
 invit_texts = {
     "Dominica": "Dominica = The Lord it is who made us * Come, let us adore Him.",
     "Feria II": "Feria II = Come * Let us glorify the Lord.",
@@ -25,7 +29,10 @@ invit_texts = {
     "Invit Pasch": "The Lord is risen indeed. * Alleluia.",
 }
 
-# Hymnus texts
+# Hymnus texts dictionary
+# This dictionary contains various hymnus texts for different occasions
+# Each key in the dictionary corresponds to a specific hymnus text
+# The values associated with each key are strings containing the hymnus text
 hymnus_texts = {
     "Day0": {
         "Hymnus": "v. Now, from the slumbers of the night arising, * Chant we the holy psalmody of David, * Hymns to our Master, with a voice concordant, * Sweetly intoning.\n_ \nSo may our Monarch pitifully hear us, * That we may merit with his saints to enter * Mansions eternal, therewithal possessing * Joy beatific.\n_ \nThis be our portion, God forever blessed, * Father eternal, Son, and Holy Spirit, * Whose is the glory, which through all creation * Ever resoundeth.\nAmen.",
@@ -35,5 +42,4 @@ hymnus_texts = {
     "Day1": {
         "Hymnus": "v. Our limbs refreshed with slumber now, * And sloth cast off, in prayer we bow; * And while we sing thy praises dear, * O Father, be thou present here.\n_ \nTo thee our earliest morning song, * To thee our hearts full powers belong; * And thou, O Holy One, prevent * Each following action and intent.\n_ \nAs shades at morning flee away, * And night before the star of day; * So each transgression of the night * Be purged by thee, celestial Light!\n_ \nCut off, we pray thee, each offense, * And every lust of thought and sense: * That by their lips who thee adore * Thou mayst be praised forevermore.\n_ \nGrant this, O Father ever One * With Christ, thy sole-begotten Son, * And Holy Ghost, whom all adore, * Reigning and blest forevermore.\nAmen.",
     },
-    "Day2": {
-        "Hymnus": "v. O Light of Light, O Day-spring bright, * Co-equal in thy Father’s light: *
+    "Day2":
