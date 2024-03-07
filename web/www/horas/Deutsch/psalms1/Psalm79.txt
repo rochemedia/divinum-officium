@@ -1,20 +1,30 @@
+# Latin text of Psalm 80
+
+# Line 79:2: "You who rule Israel, listen...", addressing God as the shepherd of Joseph
 79:2 Qui regis Israël, inténde: * qui dedúcis velut ovem Joseph.
+
+# Line 79:2: "You who sit enthroned upon the cherubim...", referring to God's presence in the Temple
 79:2 Qui sedes super Chérubim, * manifestáre coram Éphraim, Bénjamin, et Manásse.
+
+# Line 79:3: "Stir up your might...", asking God to intervene and save them
 79:3 Éxcita poténtiam tuam, et veni, * ut salvos fácias nos.
+
+# Line 79:4: "God, turn us back...", asking God to show them mercy and save them
 79:4 Deus, convérte nos: * et osténde fáciem tuam, et salvi érimus.
+
+# Line 79:5: "Lord, God of hosts, how long...", questioning why God is angry with their prayers
 79:5 Dómine, Deus virtútum, * quoúsque irascéris super oratiónem servi tui?
+
+# Line 79:6: "You feed us with the bread of tears...", describing their suffering and hardship
 79:6 Cibábis nos pane lacrimárum: * et potum dabis nobis in lácrimis in mensúra?
+
+# Line 79:7: "You have made us a reproach to our neighbors...", lamenting their humiliation and mockery
 79:7 Posuísti nos in contradictiónem vicínis nostris: * et inimíci nostri subsannavérunt nos.
+
+# Line 79:8: "God of hosts, turn us back...", repeating the plea for mercy and salvation
 79:8 Deus virtútum, convérte nos: * et osténde fáciem tuam, et salvi érimus.
+
+# Line 79:9: "You brought a vine out of Egypt...", referring to Israel's history and God's protection
 79:9 Víneam de Ægýpto transtulísti: * ejecísti gentes, et plantásti eam.
-79:10 Dux itíneris fuísti in conspéctu ejus: * plantásti radíces ejus, et implévit terram.
-79:11 Opéruit montes umbra ejus: * et arbústa ejus cedros Dei.
-79:12 Exténdit pálmites suos usque ad mare: * et usque ad flumen propágines ejus.
-79:13 Ut quid destruxísti macériam ejus: * et vindémiant eam omnes, qui prætergrediúntur viam?
-79:14 Exterminávit eam aper de silva: * et singuláris ferus depástus est eam.
-79:15 Deus virtútum, convértere: * réspice de cælo, et vide, et vísita víneam istam.
-79:16 Et pérfice eam, quam plantávit déxtera tua: * et super fílium hóminis, quem confirmásti tibi.
-79:17 Incénsa igni, et suffóssa * ab increpatióne vultus tui períbunt.
-79:18 Fiat manus tua super virum déxteræ tuæ: * et super fílium hóminis, quem confirmásti tibi.
-79:19 Et non discédimus a te, vivificábis nos: * et nomen tuum invocábimus.
-79:20 Dómine, Deus virtútum, convérte nos: * et osténde fáciem tuam, et salvi érimus.
+
+# Line 79:10: "You cleared the ground for it...", describing
