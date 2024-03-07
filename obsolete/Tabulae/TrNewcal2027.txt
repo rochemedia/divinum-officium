@@ -1,4 +1,18 @@
-01-03=Tempora/Nat2-0;;
-03-04=03-04rq;;
-04-05=03-25;;
-10-31=10-DUr;;
+# Define the substitution rules
+substitutions = (
+    ("01-03", "Tempora/Nat2-0"),
+    ("03-04", "03-04rq"),
+    ("04-05", "03-25"),
+    ("10-31", "10-DUr"),
+)
+
+# Function to apply the substitution rules to a string
+def apply_substitutions(s):
+    for original, replacement in substitutions:
+        s = s.replace(original, replacement)
+    return s
+
+# Example usage
+example = "01-03 03-04 04-05 10-31"
+result = apply_substitutions(example)
+print(result)  # Output: "Tempora/Nat2-0 03-04rq 03-25 10-DUr"
