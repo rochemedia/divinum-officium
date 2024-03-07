@@ -1,9 +1,20 @@
-Upon the 23rd day of September, was born into the better life: 
-_
-At Rome, the holy martyr Pope Linus. He was the first successor of the blessed Apostle Peter in the government of the Church of Rome, was crowned with martyrdom, and is buried upon the Vatican Hill, hard by the Apostle.
-At Iconium, in Lycaonia, the holy Virgin and martyr Thecla. She was converted to the faith by the holy Apostle Paul. Under the Emperor Nero she overcame fire and beasts for her confession of Christ, and after many contendings, wherein she was victorious, for the teaching of many, she came to Seleucia, and there fell asleep in peace. The holy Fathers do greatly extol her.
-In Campania is made commemoration of the blessed Sosius, Deacon of the Church of Miseno. One while when he was reading the Gospel in the church, the holy Bishop Januarius saw flames rising from his head, and foretold that he would be a martyr. Neither was it many days afterward, when, being himself of the age of thirty years, he was beheaded along with the said Bishop, and so received martyrdom.
-In Africa, the holy martyrs Andrew, John, Peter, and Anthony.
-In the country of Coutances, the holy martyr Paternus, the Bishop.
-At Ancona, holy Constantius, watchman of the Church [of St. Stephen,] who was remarkable for his grace of working miracles.
-In Spain, the holy women Xantippe and Polyxena, who were disciples of the Apostles.
+# This code block provides a list of saints and their significant dates and events.
+
+# The first event is the birth of Pope Linus, the first successor of the Apostle Peter in the government of the Church of Rome.
+# He was crowned with martyrdom and buried on the Vatican Hill, near the Apostle.
+# Event date: September 23rd
+event_1 = "Upon the 23rd day of September, was born into the better life: \n_ \nAt Rome, the holy martyr Pope Linus. He was the first successor of the blessed Apostle Peter in the government of the Church of Rome, was crowned with martyrdom, and is buried upon the Vatican Hill, hard by the Apostle."
+
+# The second event is the story of Thecla, a holy Virgin and martyr from Iconium, Lycaonia.
+# She was converted to the faith by the holy Apostle Paul and overcame many trials and tribulations under Emperor Nero.
+# She eventually fell asleep in peace in Seleucia.
+# Event date: Not specified
+event_2 = "At Iconium, in Lycaonia, the holy Virgin and martyr Thecla. She was converted to the faith by the holy Apostle Paul. Under the Emperor Nero she overcame fire and beasts for her confession of Christ, and after many contendings, wherein she was victorious, for the teaching of many, she came to Seleucia, and there fell asleep in peace."
+
+# The third event is the commemoration of the blessed Sosius, Deacon of the Church of Miseno in Campania.
+# He was beheaded along with Bishop Januarius after the Bishop saw flames rising from Sosius' head during a church service.
+# Event date: Not specified
+event_3 = "In Campania is made commemoration of the blessed Sosius, Deacon of the Church of Miseno. One while when he was reading the Gospel in the church, the holy Bishop Januarius saw flames rising from his head, and foretold that he would be a martyr. Neither was it many days afterward, when, being himself of the age of thirty years, he was beheaded along with the said Bishop, and so received martyrdom."
+
+# The fourth event is the commemoration of the holy martyrs Andrew, John, Peter, and Anthony in Africa.
+# Event
