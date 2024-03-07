@@ -1,7 +1,11 @@
-[Name]
-Commune Evangelistarum tempore Paschali
-
-[Rule]
-Psalmi Dominica
-Antiphonas horas
-Una Antiphona
+# Commune Evangelistarum tempore Paschali
+# 
+# This software contains the Psalms and Antiphons for the hours of the Divine Office during Eastertide.
+# 
+# Rule
+# 
+# The rule for the software is as follows:
+# 
+# Psalmi Dominica - Psalms for Sunday
+# Antiphonas horas - Antiphons for the hours
+# Una Antiphona - One Antiphon
