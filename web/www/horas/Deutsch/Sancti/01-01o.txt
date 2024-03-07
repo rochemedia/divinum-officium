@@ -1,9 +1,21 @@
 [Lectio1]
-Aus dem Brief des heiligen Apostels Paulus an die Römer
-!Rom 3:1-6
-1 Was also hat der Jude voraus? Oder welches ist der Nutzen der Beschneidung?
-2 Viel, in jeder Hinsicht! Erstens nämlich, daß ihnen die Aussprüche Gottes anvertraut wurden.
-3 Denn wie? Wenn einige von ihnen nicht geglaubt haben, wird etwa ihr Unglaube die Treue Gottes aufheben? Das sei ferne!
-4 Vielmehr ist Gott wahrhaftig, jeder Mensch dagegen ein Lügner, wie geschrieben steht: Auf daß du gerecht befunden werdest in deinen Worten und obsiegest, wenn mit dir gerechtet wird.
-5 Wenn aber unsere Ungerechtigkeit Gottes Gerechtigkeit in's Licht stellt, was werden wir sagen? Ist etwa Gott ungerecht, wenn er Strafe verhängt?
-6 (Ich rede nach Menschenweise.) Das sei ferne! denn wie wird sonst Gott diese Welt richten? 
+// Aus dem Brief des heiligen Apostels Paulus an die Römer
+// !Rom 3:1-6
+
+// 1 Was also hat der Jude voraus? Oder welches ist der Nutzen der Beschneidung?
+// Fragestellung zur Einleitung des Abschnitts, der die Vorrechte und den Nutzen der Beschneidung für Juden thematisiert
+
+// 2 Viel, in jeder Hinsicht! Erstens nämlich, daß ihnen die Aussprüche Gottes anvertraut wurden.
+// Erste Antwort auf die Frage, wobei die Beschneidung den Juden das Vertrauen der göttlichen Offenbarungen einbrachte
+
+// 3 Denn wie? Wenn einige von ihnen nicht geglaubt haben, wird etwa ihr Unglaube die Treue Gottes aufheben? Das sei ferne!
+// Fragestellung, die die Zuverlässigkeit Gottes trotz Unglauben Einzelner betont
+
+// 4 Vielmehr ist Gott wahrhaftig, jeder Mensch dagegen ein Lügner, wie geschrieben steht: Auf daß du gerecht befunden werdest in deinen Worten und obsiegest, wenn mit dir gerechtet wird.
+// Aussage über die Wahrheit Gottes im Gegensatz zur menschlichen Unglauben und Lüge, mit Verweis auf ein Zitat
+
+// 5 Wenn aber unsere Ungerechtigkeit Gottes Gerechtigkeit in's Licht stellt, was werden wir sagen? Ist etwa Gott ungerecht, wenn er Strafe verhängt?
+// Fragestellung, die die Beziehung zwischen menschlicher Ungerechtigkeit und Gottes Gerechtigkeit thematisiert
+
+// 6 (Ich rede nach Menschenweise.) Das sei ferne! denn wie wird sonst Gott diese Welt richten?
+// Abs
