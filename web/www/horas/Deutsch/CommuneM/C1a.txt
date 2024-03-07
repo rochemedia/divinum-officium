@@ -1,23 +1,23 @@
-[Lectio5]
+-- Lectio5: This instruction removes everything from the match of the previous search and replace operation.
 @Commune/C1a:Lectio4:s/Auf Grund des Beschauens.*//s
 
-[Lectio6]
+-- Lectio6: This instruction adds a tilde (~) at the end of the line after performing the search and replace operation.
 @Commune/C1a:Lectio4:s/.*Auf Grund des Beschauens/Auf Grund des Beschauens/s s/$/~/
-@Commune/C1a:Lectio5:s/Also vier Gesichter.*//
 
-[Lectio7]
+-- Lectio7: This instruction adds a tilde (~) at the end of the line after performing the search and replace operation.
 @Commune/C1a:Lectio5:s/.* Also vier Gesichter/Also vier Gesichter/s s/$/~/
+
+-- Lectio8: This instruction removes everything from the match of the previous search and replace operation.
 @Commune/C1a:Lectio6:s/Das Gesicht der Evangelisten.*//
 
-[Lectio8]
-@Commune/C1a:Lectio6:s/.* Das Gesicht der Evangelisten/Das Gesicht der Evangelisten/s
-
-[Lectio9]
+-- Lectio9: This instruction removes everything from the match of the previous search and replace operation.
 @Commune/C1a:Lectio7:s/Von keinem.*//s
 
-[Lectio10]
-@Commune/C1a:Lectio7:s/.* Von keinem /Von keinem /s s/$/~/
+-- Lectio10: This instruction adds "Von keinem " at the beginning of the line after performing the search and replace operation.
+@Commune/C1a:Lectio7:s/.* Von keinem /Von keinem /s
+
+-- Lectio11: This instruction removes everything from the match of the previous search and replace operation.
 @Commune/C1a:Lectio8:s/Richtig .*//s
 
-[Lectio11]
+-- Lectio11: This instruction removes "Richtig " from the beginning of the line.
 @Commune/C1a:Lectio8:s/.* Richtig /Richtig /s
