@@ -1,9 +1,20 @@
-01-02=Tempora/Nat2-0;;
-03-26=03-25;;
-04-26=04-25;;
-06-04=05-31;;
-10-28=10-DU;;
-10-29=10-28;;
-12-30=Tempora/Nat1-0;;
-Hy05-18=1;;
-dirge=;;
+# Define variables for date ranges
+declare -A date_ranges
+date_ranges["01-02"]="Tempora/Nat2-0"
+date_ranges["03-26"]="03-25"
+date_ranges["04-26"]="04-25"
+date_ranges["06-04"]="05-31"
+date_ranges["10-28"]="10-DU"
+date_ranges["10-29"]="10-28"
+date_ranges["12-30"]="Tempora/Nat1-0"
+
+# Define variable for Hy05-18
+Hy05-18="1"
+
+# Initialize variable for dirge
+dirge=""
+
+# Print the variables for debugging or use in further processing
+echo "Date ranges: ${date_ranges[@]}"
+echo "Hy05-18: ${Hy05-18}"
+echo "dirge: ${dirge}"
