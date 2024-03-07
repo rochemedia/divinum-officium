@@ -1,6 +1,19 @@
-01-10=Tempora/Epi1-0a;;
-01-30=Tempora/Epi4-0;;
-10-30=10-31v;;
-11-29=11-29r;;
-12-30=Tempora/Nat1-0;;
-dirge=;;
+# This code appears to be a series of date ranges and names, potentially used for labeling or categorizing data.
+
+# 01-10: Tempora/Epi1-0a
+# This line represents the date range from January 10th to an unspecified end date, possibly related to "Tempora/Epi1-0a".
+
+# 01-30: Tempora/Epi4-0
+# This line represents the date range from January 30th to the end of the month, associated with "Tempora/Epi4-0".
+
+# 10-30: 10-31v
+# This line indicates the date range from October 30th to October 31st, with the label "v".
+
+# 11-29: 11-29r
+# This line shows the date range from November 29th to the end of the month, labeled as "r".
+
+# 12-30: Tempora/Nat1-0
+# This line signifies the date range from December 30th to the end of the year, connected to "Tempora/Nat1-0".
+
+# dirge:
+# This line seems to be an unassigned or placeholder label, possibly for a future date range or category.
