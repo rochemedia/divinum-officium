@@ -1,2 +1,9 @@
-10-27=10-DU;;
-12-29=TemporaM/Nat1-0;;
+# This code contains two lines, each representing a mathematical expression.
+
+# The first line calculates the difference between 10 and a value assigned to the variable 'DU'.
+# The result of this calculation is then stored in a new variable (which is not explicitly defined in the code).
+10-27 = 10 - DU;;
+
+# The second line calculates the result of the 'TemporaM' variable divided by 'Nat1' with 0 subtracted from it.
+# The result of this calculation is then stored in a new variable (which is not explicitly defined in the code).
+12-29 = TemporaM / Nat1 - 0;;
