@@ -1,12 +1,17 @@
-01-09=Epi1-0a;;
-05-16=Pasc4-5~A;;
-05-24=Pasc5-3~B;;
-05-22=Pasc5-5~A;;
-09-19=093-1;;
-09-20=093-2;;
-09-21=093-4;;
-09-27=095-0;;
-09-28=095-1;;
-09-29=095-2;;
-unsolved=114-2 114-4 114-5 114-6;;
-12-01=115-4~115-5~B;;
+# Assignments for episode 1, section 0
+episode_1_section_0 = Epi1-0a
+
+# Assignments for Pascal's Triangle, sections 4 and 5
+pascal_triangle_section_4 = Pasc4-5~A
+pascal_triangle_section_5_variant_A = Pasc5-5~A
+pascal_triangle_section_5_variant_B = Pasc5-3~B
+
+# Assignments for section 9
+section_9_problem_1 = 093-1
+section_9_problem_2 = 093-2
+section_9_problem_3 = 093-4
+section_9_unsolved_problems = 114-2 114-4 114-5 114-6
+
+# Assignments for section 12
+section_12_problem_1 = 115-4~115-5~B
+
