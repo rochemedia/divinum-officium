@@ -1,3 +1,15 @@
-01-13=Epi1-0a;;
-seant02-21=Quadp1-0;;
-seant02-28=Quadp2-1;;
+# Define variables for episode and season numbers
+episode_0a=1-13
+season_02=2
+quadmester_1=02-21
+quadmester_2=02-28
+
+# Combine the variables to create the desired names
+epi_0a="Epi${episode_0a}"
+seant_02="seant${season_02}"
+quadp_1="Quadmester${quadmester_1}"
+quadp_2="Quadmester${quadmester_2}"
+
+# Print the names
+echo "${seant_02}-${quadp_1}=${quadp_1}p${episode_0a}"
+echo "${seant_02}-${quadp_2}=${quadp_2}p1"
