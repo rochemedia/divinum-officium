@@ -1,5 +1,6 @@
+# Define a rule for assigning a value to the variable OPapaC
 [Rule]
-OPapaC=Sylvester;
+OPapaC = Sylvester;
 
-[Oratio]
+# Define a function or method for communicating with a group
 @Commune/C4:Oratio Gregem
