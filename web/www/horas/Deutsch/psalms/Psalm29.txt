@@ -1,13 +1,25 @@
-29:1 (psalmus cantici in dedicatione domus David)
-29:2 exaltabo te Domine quoniam suscepisti me nec delectasti inimicos meos super me
-29:3 Domine Deus meus clamavi ad te et sanasti me
-29:4 Domine eduxisti ab inferno animam meam salvasti me a descendentibus in lacum
-29:5 psallite Domino sancti eius et confitemini memoriae sanctitatis eius
-29:6 quoniam ira in indignatione eius et vita in voluntate eius ad vesperum demorabitur fletus et ad matutinum laetitia
-29:7 ego autem dixi in abundantia mea non movebor in aeternum
-29:8 Domine in voluntate tua praestitisti decori meo virtutem avertisti faciem tuam et factus sum conturbatus
-29:9 ad te Domine clamabo et ad Deum meum deprecabor
-29:10 quae utilitas in sanguine meo dum descendo in corruptionem numquid confitebitur tibi pulvis aut adnuntiabit veritatem tuam
-29:11 audivit Dominus et misertus est mei Dominus factus est adiutor meus
-29:12 convertisti planctum meum in gaudium mihi conscidisti saccum meum et circumdedisti me laetitia
-29:13 ut cantet tibi gloria mea et non conpungar Domine Deus meus in aeternum confitebor tibi
+# Psalm 29:1 (psalmus cantici in dedicatione domus David)
+# A song of praise for the dedication of David's house
+
+# Psalm 29:2 exaltabo te Domine quoniam suscepisti me nec delectasti inimicos meos super me
+# I will extol you, Lord, for you have raised me up and have not let my enemies rejoice over me
+
+# Psalm 29:3 Domine Deus meus clamavi ad te et sanasti me
+# Lord my God, I cried out to you and you healed me
+
+# Psalm 29:4 Domine eduxisti ab inferno animam meam salvasti me a descendentibus in lacum
+# Lord, you have brought my soul up from Sheol, you have saved me from those who go down to the pit
+
+# Psalm 29:5 psallite Domino sancti eius et confitemini memoriae sanctitatis eius
+# Sing to the Lord, you his holy ones, and give praise to his memory
+
+# Psalm 29:6 quoniam ira in indignatione eius et vita in voluntate eius ad vesperum demorabitur fletus et ad matutinum laetitia
+# For his anger lasts only a moment, but his favor lasts a lifetime; weeping may stay for the night, but rejoicing comes in the morning
+
+# Psalm 29:7 ego autem dixi in abundantia mea non movebor in aeternum
+# I thought, "I will never be moved; I will never be shaken."
+
+# Psalm 29:8 Domine in voluntate tua praestitisti decori meo virtutem avertisti faciem tuam et factus sum conturbatus
+# Lord, by your favor you made my mountain stand strong; you hid your face and I was dismayed
+
+# Psalm 29:9 ad te Domine clam
