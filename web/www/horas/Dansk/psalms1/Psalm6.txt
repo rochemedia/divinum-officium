@@ -1,4 +1,6 @@
+# Define a list of verses from a religious text
 verses = [
+    # Each verse is a string containing one line of the text
     "Herre, straff mig ikke i din vrede, * og træt mig ikke i din harme!",
     "Vær mig nådig, Herre, for jeg er svag, * heil mig, Herre, for min krop sygner hen,",
     "Og min sjæl er grebet af rædsel. * Herre, hvor længe endnu?",
@@ -11,5 +13,7 @@ verses = [
     "Alle mine fjender beskæmmes og gribes af rædsel, * i et nu drives de tilbage med skam."
 ]
 
+# Loop through each verse in the list
 for verse in verses:
+    # Print the verse
     print(verse)
