@@ -1,10 +1,30 @@
-01-09=Tempora/Epi1-0a;;
-05-02=05-01t;;
-05-04=04-25t;;
-07-23=07-24v;;
-11-19=Tempora/Pent23-0;;
-11-29=11-29r;;
-12-30=Tempora/Nat1-0;;
-Hy06-24=1;;
-Hy08-01=1;;
-dirge=;;
+; 01-09: Tempora/Epi1-0a;;
+; This line sets a value or configuration for the time period between the 1st and 9th,
+; possibly related to "Tempora" and "Epi1-0a".
+
+; 05-02: 05-01t;;
+; This line sets a value or configuration for the time period between the 5th and 2nd,
+; possibly related to a value from the 5th to the 1st.
+
+; 05-04: 04-25t;;
+; This line sets a value or configuration for the time period between the 5th and 4th,
+; possibly related to a value from the 4th to the 25th.
+
+; 07-23: 07-24v;;
+; This line sets a value or configuration for the time period between the 7th and 23rd,
+; possibly related to a value from the 7th to the 24th.
+
+; 11-19: Tempora/Pent23-0;;
+; This line sets a value or configuration for the time period between the 11th and 19th,
+; possibly related to "Tempora" and "Pent23-0".
+
+; 11-29: 11-29r;;
+; This line sets a value or configuration for the time period between the 11th and 29th,
+; possibly related to a value "r" from the 11th to the 29th.
+
+; 12-30: Tempora/Nat1-0;;
+; This line sets a value or configuration for the time period between the 12th and 30th,
+; possibly related to "Tempora" and "Nat1-0".
+
+; Hy06-24: 1;;
+; This line sets a value or configuration for the time period "Hy" between the 6th and 24th,
