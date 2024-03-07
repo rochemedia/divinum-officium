@@ -1,3 +1,18 @@
-(Canticum Isaiae * Isa 63:1-5)
-63:1 Who is this coming from Edom, from Bozrah in clothes stained crimson? Who is this in royal robes, arrayed in splendor, striding forward in powerful acts? It is I who speak in righteousness, mighty to save.
-6
+# Define the Bible verse to be printed
+verse = """(Canticum Isaiae * Isa 63:1-5)
+63:1 Who is this coming from Edom, from Bozrah in clothes stained crimson? Who is this in royal robes, arrayed in splendor, striding forward in powerful acts? It is I who speak in righteousness, mighty to save."""
+
+# Function to print the verse number and corresponding text
+def print_verse(verse):
+    # Split the verse into lines
+    lines = verse.strip().split("\n")
+
+    # Extract the verse number and the actual verse
+    verse_number = lines[0].split(" ")[1]
+    verse_text = "\n".join(lines[1:])
+
+    # Print the verse number and the verse text
+    print(f"{verse_number} {verse_text}")
+
+# Call the function to print the verse
+print_verse(verse)
