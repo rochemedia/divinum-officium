@@ -1,7 +1,9 @@
 <html><head><title>403 Permission Denied</title></head>
-<body bgcolor=white>
-<h1>403 Permission Denied</h1>
+<body bgcolor=white> <!-- Sets the background color of the page to white -->
+<h1>403 Permission Denied</h1> <!-- Displays a level 1 heading with text "403 Permission Denied" -->
 
-You do not have permission for this request <!--#echo var="REQUEST_URI" -->
+<!-- The following line outputs the value of the REQUEST_URI server variable -->
+<!--#echo var="REQUEST_URI" -->
+You do not have permission for this request <!-- Displays a message to the user that they do not have permission for the requested URI -->
 
 </body></html>
