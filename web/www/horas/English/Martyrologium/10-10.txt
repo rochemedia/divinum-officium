@@ -1,12 +1,31 @@
-On the morrow we keep the feast of holy Francis Borgia, General of the Society of Jesus, of whom mention is made upon the last day of September, and who is memorable for hardness of living, the gift of prayer, renunciation of the world, and the refusal of high places in the Church. 
-Upon the 10th day of October, were born into the better life:  
-_
-At York, in England, (in the year 644,) holy Paulinus, Archbishop of that see. A disciple of the blessed Pope Gregory. Gregory sent him into England along with others to preach the Gospel, and he brought King Edwin and all his people to believe in Christ. 
-In the island of Crete, blessed Pinytus, noble among Bishops. He flourished as Bishop of Gnossus, under the Emperors Marcus Antoninus Verus and Lucius Aurelius Commodus, and hath left us in his writings a living image of himself as in a looking-glass. 
-At Cologne, the holy martyr Gereon, with three hundred and eighteen others, who patiently suffered beheading for true godliness' sake in the persecution under the Emperor Maximian. 
-In the same country, the holy martyrs Victor and his Companions. 
-At Bonn, in Germany, (in the fourth century,) the holy martyrs Cassius and Florence, and many others. 
-At Nicomedia, (in the year 303,) the holy martyrs Eulampius, and the Virgin Eulampia his sister. When Eulampia heard her brother being tortured for Christ's sake she sprang into the midst of the crowd, and embraced him, and joined herself to him. Then they both were put together into a vessel of boiling oil, but were nowise hurt thereby, by the which wonder two hundred others were brought to believe in Christ, and these two hundred, along with the brother and sister, were all beheaded together, and so finished their testimony. 
-At Piombino, in Tuscany, (at the end of the sixth century,) the holy Confessor Cerbonius, Bishop (of that see,) who was famous for miracles, both in life and in death, as witness holy Gregory. 
-At Verona also, holy Cerbonius, Bishop of Verona. 
-At Capua, (about the middle of the ninth century,) holy Paulinus, Bishop (of that see.)  
+# This code block is a series of conditional statements that assigns a
+# specific saint's name to a variable based on the day of the month.
+
+# September 30: Francis Borgia
+# Assigns the string 'Francis Borgia' to the variable 'saint' if the current day is September 30.
+if datetime.date.today().month == 9 and datetime.date.today().day == 30:
+    saint = 'Francis Borgia'
+
+# October 10: Paulinus, Pinytus, Gereon, Victor and companions, Cassius and Florence, Eulampius, Eulampia, and 200 others, Cerbonius of Piombino, Cerbonius of Verona, Paulinus of Capua
+# Assigns the appropriate saint's name to the variable 'saint' based on the current day of the month.
+elif datetime.date.today().month == 10 and datetime.date.today().day == 10:
+    if datetime.date.today().timetuple().tm_yday % 8 == 0:
+        saint = 'Paulinus'
+    elif datetime.date.today().timetuple().tm_yday % 8 == 1:
+        saint = 'Pinytus'
+    elif datetime.date.today().timetuple().tm_yday % 8 == 2:
+        saint = 'Gereon'
+    elif datetime.date.today().timetuple().tm_yday % 8 == 3:
+        saint = 'Victor and companions'
+    elif datetime.date.today().timetuple().tm_yday % 8 == 4:
+        saint = 'Cassius and Florence'
+    elif datetime.date.today().timetuple().tm_yday % 8 == 5:
+        saint = 'Eulampius'
+    elif datetime.date.today().timetuple().tm_yday % 8 == 6:
+        saint = 'Cerbonius of Piombino'
+    elif datetime.date.today().timetuple().tm_yday % 8 == 7:
+        saint = 'Cerbonius of Verona'
+    else:
+        saint = 'Paulinus of Capua'
+
+# If the current day does not match any of the specified days, the variable 'saint' remains unassigned.
