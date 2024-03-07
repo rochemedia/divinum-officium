@@ -1,2 +1,49 @@
-<!-- SHTML Wrapper - 500 Server Error -->
-<!--#exec cgi="/500.php" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>500 Internal Server Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+            line-height: 1.2;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+            color: #555;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>500</h1>
+    <p>Internal Server Error</p>
+    <p>We're sorry, but something went wrong on our end. Our technical team has been notified and is working to resolve the issue as soon as possible.</p>
+</div>
+
+</body>
+</html>
