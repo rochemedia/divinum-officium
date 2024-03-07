@@ -1,16 +1,39 @@
+; This code defines a series of assignments with variable names that follow a
+; specific pattern (four digits, possibly representing a date, followed by
+; a letter or a hyphen) and values that vary in format (alphanumeric strings
+; and plain numbers).
+
+; Assignment: 01-14
+; Value: Epi1-0a
 01-14=Epi1-0a;;
+
+; Assignment: 01-26
+; Value: Epi3-3~A
 01-26=Epi3-3~A;;
+
+; Assignment: 04-09
+; Value: Pasc1-1~B
 04-09=Pasc1-1~B;;
+
+; Assignment: 09-16
+; Value: 093
 09-16=093-0;;
+
+; Assignment: 09-16
+; Value: 093-0~B
 09-16=093-0~B;;
+
+; Assignment: 09-19
+; Value: 093-1
 09-19=093-1;;
+
+; Assignment: 09-20
+; Value: 093-2
 09-20=093-2;;
+
+; Assignment: 09-21
+; Value: 093-4
 09-21=093-4;;
-09-26=095-0;;
-09-27=095-1;;
-09-28=095-2;;
-10-01=101-0~B;;
-10-29=105-1;;
-10-30=105-2;;
-11-23=114-4~114-5~B;;
-11-28=115-5~115-6~A;;
+
+; Assignment: 09-26
+;
