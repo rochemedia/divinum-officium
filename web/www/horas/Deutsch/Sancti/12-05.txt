@@ -1,9 +1,11 @@
-[Rank]
+[Rank]  # The rank or importance of the prayer
 Hl. Sabbas, Abt;;Simplex;;1.1;;vide C5
 
-[Rule]
-vide C5;
+[Rule]  # The rule or guideline being followed
+vide C5;  # This could be a reference to a specific source or regulation
 
-[Oratio]
-Lass, wir bitten dich, o Herr, die Fürsprache des heiligen Abtes Sabbas uns als Empfehlung dienen, damit wir, was wir durch eigenes Verdienst nicht erreichen können, auf sein väterliches Eintreten für uns erhalten.
-$Per Dominum
+[Oratio]  # The main text of the prayer
+Lass, wir bitten dich, o Herr, die Fürsprache des heiligen Abtes Sabbas uns als Empfehlung dienen, damit wir, was wir durch eigenes Verdienst nicht erreichen können, auf sein väterliches Eintreten für uns erhalten. $Per Dominum
+
+# This is a request to the Lord to allow the intercession of Saint Sabbas to help us obtain what we cannot achieve through our own merits.
+# The prayer ends with the invocation "$Per Dominum", which could be translated as "through the Lord".
