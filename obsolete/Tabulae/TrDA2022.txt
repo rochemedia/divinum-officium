@@ -1,19 +1,18 @@
 # Define the default values for each variable
-Tempora_Nat2 ?= Nat2-0
-Tempora_Epi6 ?= Epi6-0
-X_X ?= X/X
-X_Y ?= 06-01
-Tempora_Nat1 ?= Nat1-0
-dirge ?=
+Tempora_Nat2 ?= Nat2-0   # Default value for Tempora_Nat2
+Tempora_Epi6 ?= Epi6-0   # Default value for Tempora_Epi6
+X_X ?= X/X             # Default value for X_X
+X_Y ?= 06-01           # Default value for X_Y
+Tempora_Nat1 ?= Nat1-0   # Default value for Tempora_Nat1
+dirge ?=               # Default value for dirge is empty/null
 
 # Define the actual values for each variable
-01-02 = $(Tempora_Nat2)
-02-12 = $(Tempora_Epi6)
-06-01 = $(X_Y)
-06-23 = $(X_X)
-06-25 = $(X_Y)
-08-12 = 08-12anticip
-08-13 = 08-14v-anticip
-10-30 = 10-DU
-12-30 = $(Tempora_Nat1)
-
+01-02 = $(Tempora_Nat2)  # Assign the value of Tempora_Nat2 to 01-02
+02-12 = $(Tempora_Epi6)  # Assign the value of Tempora_Epi6 to 02-12
+06-01 = $(X_Y)          # Assign the value of X_Y to 06-01
+06-23 = $(X_X)          # Assign the value of X_X to 06-23
+06-25 = $(X_Y)          # Assign the value of X_Y to 06-25
+08-12 = 08-12anticip    # Assign the string "08-12anticip" to 08-12
+08-13 = 08-14v-anticip  # Assign the string "08-14v-anticip" to 08-13
+10-30 = 10-DU           # Assign the string "10-DU" to 10-30
+12-30 = $(Tempora_Nat1)  # Assign the value of Tempora_Nat1 to 12-30
