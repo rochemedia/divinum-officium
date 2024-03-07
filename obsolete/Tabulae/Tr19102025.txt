@@ -1,12 +1,16 @@
 # Define some useful variables
+# NAT1, NAT2, EPI1, and EPI6 are names of other makefiles that will be included in this makefile
 NAT1 := Tempora/Nat1-0
 NAT2 := Tempora/Nat2-0
 EPI1 := Tempora/Epi1-0a
 EPI6 := Tempora/Epi6-0
 
 # Define the actual mappings
+# The lines below define a series of mappings, where each mapping is given a name (e.g. "01-05")
+# and assigned a value (which can be a variable or a literal string)
 01-05 := $(NAT2)
 01-12 := $(EPI1)
 02-15 := $(EPI6)
 02-22 := 02-23v
 02-23 := 
+
