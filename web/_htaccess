@@ -1,6 +1,12 @@
-
+# Enable the rewrite engine
 RewriteEngine on
 
+# Set up conditions for host name
+# If the HTTP_HOST is either "divinumofficium.net" or "www.divinumofficium.net",
+# then apply the rule
 RewriteCond %{HTTP_HOST} ^divinumofficium.net$ [OR]
 RewriteCond %{HTTP_HOST} ^www.divinumofficium.net$
+
+# Define the rule to redirect to the corresponding URL on divinumofficium.com
 RewriteRule ^/?(.*)$ http://www.divinumofficium.com/$1 [R=301,L]
+
