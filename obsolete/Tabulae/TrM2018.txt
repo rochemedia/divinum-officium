@@ -1,4 +1,11 @@
+// Line 01-02: Set the variable "TemporaM" to the value of "Nat2-0"
 01-02=TemporaM/Nat2-0;;
+
+// Line 01-08: Set the variable "TemporaM" to the value of "Epi1-0a"
 01-08=TemporaM/Epi1-0a;;
+
+// Line 10-28: Set the variable "10-DU" to an undefined value or state
 10-28=10-DU;;
+
+// Line 12-30: Set the variable "TemporaM" to the value of "Nat1-0"
 12-30=TemporaM/Nat1-0;;
