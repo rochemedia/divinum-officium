@@ -1,3 +1,15 @@
+# HYMNE_TOBIT_LOVSANG: A dictionary containing the lyrics of Tobit's hymn
+# ---------------------------------------------------------------------
+# The dictionary contains the following keys:
+#   - title: The title of the hymn
+#   - verses: A list of verses, where each verse is represented by a dictionary
+#     with the following keys:
+#       - number: The verse number in the format "Chapter:Verse"
+#       - content: The text of the verse
+
+# Example usage:
+# print(HYMNE_TOBIT_LOVSANG['title'])
+# print(HYMNE_TOBIT_LOVSANG['verses'][0]['content'])
 HYMNE_TOBIT_LOVSANG = {
     'title': 'Tobits lovsang',
     'verses': [
@@ -5,26 +17,6 @@ HYMNE_TOBIT_LOVSANG = {
             'number': '13:1',
             'content': 'Lovet være Gud, som lever i evighed, * lovet være hans kongedømme!'
         },
-        {
-            'number': '13:2',
-            'content': 'For han straffer, og han forbarmer sig. ' +
-                       'Han fører ned i dødsriget, dybt under jorden, ' +
-                       'og han fører op fra den store tilintetgørelse. * ' +
-                       'Intet kan undslippe hans hånd.'
-        },
-        {
-            'number': '13:3-4',
-            'content': 'Tak ham, israelitter, * mens folkene hører på, ' +
-                       'For han har spredt jer blandt dem og dér vist jer sin storhed. ' +
-                       'Ophøj ham, * mens alle levende hører på, ' +
-                       'For han er vor Herre, han er vor Gud, og han er vor fader; * han er Gud i al evighed.'
-        },
-        {
-            'number': '13:5',
-            'content': 'Han vil straffe jer for jeres synder, * og han vil forbarme sig over jer.'
-        },
-        {
-            'number': '13:6',
-            'content': 'Se nu, hvad han har gjort for jer, og tak ham med høj røst, * pris retfærdighedens Herre, ' +
-                       'og ophøj evighed, konge! * I det land, hvor jeg lever i fangenskab, ' +
-                       'takker jeg ham, * jeg forkynder hans magt og storhed for et folk af syndere.
+        # ...
+    ]
+}
