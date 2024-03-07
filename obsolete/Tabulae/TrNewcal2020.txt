@@ -1,5 +1,5 @@
+# This line sets the value of the variable 01-05 to 01-00.
 01-05=01-00;;
-05-30=Tempora/Pasc6-6;;
-10-25=10-DUr;;
-12-27=Tempora/Nat1-0;;
-dirge=;;
+
+# This line sets the value of the variable 05-30 to "Tempora/Pasc6-6".
+05-3
