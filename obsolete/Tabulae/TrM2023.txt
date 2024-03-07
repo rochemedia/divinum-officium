@@ -1,3 +1,26 @@
-03-20=03-19;;
-10-29=10-DU;;
-12-31=TemporaM/Nat1-0;;
+; Conversions for days, months, and years
+(define (day-to-day day)
+  (- day 1))
+
+(define (month-to-month month)
+  (cond ((eq? month '19) 'DU)
+        (else month)))
+
+(define (year-to-year year)
+  (cond ((and (eq? year '12) (eq? (day-of-year year '31) 31)) 'TemporaM/Nat1-0)
+        (else (string-append "0" (number->string (- year 1))))))
+
+; Function to convert a date in the format "MM-DD" or "MM-DDY" to "MM-DD-YYYY"
+(define (convert-date date)
+  (let ((month (string-split date "-" 1))
+        (day (string-split date "-" 2)))
+    (cond ((eq? (string-length date) 5) ; if date is in the format "MM-DD"
+           (string-append (car month) "-" (car day) "-" (year-to-year (current-year))))
+          (else ; if date is in the format "MM-DDY"
+               (string-append (car month) "-" (car day) "-" (year-to-year (string-split (cadr date) "" 1)))))))
+
+; Test the function
+(displayln (convert-date "03-20")) ; should print "03-20-2022"
+(displayln (convert-date "10-29")) ; should print "10-29-2022"
+(displayln (convert-date "12-31TemporaM/Nat1-0")) ; should print "12-31-TemporaM/Nat1-0"
+
