@@ -1,5 +1,13 @@
+; The code defines a series of rules or assignments related to time intervals.
+
+; Rule 01-02 sets the value of Tempora/Nat2-0 to null or empty.
 01-02=Tempora/Nat2-0;;
+
+; Rule 04-08 sets the value of the time interval from 03:00 to 25:00 (24-hour format) to an unknown value.
 04-08=03-25;;
+
+; Rule 10-27 sets the value of the time interval from 10:00 to DUr (a possible time unit or code) to the value of DUr.
 10-27=10-DUr;;
-12-09=12-08;;
-12-29=Tempora/Nat1-0;;
+
+; Rule 12-09 sets the value of the time interval from 12:00 to 08 (possibly a time unit or code) to the value of the time interval 12-08.
+12-09=12-0
