@@ -1,1 +1,1 @@
-seant02-28=Quadp2-2;;
+seant02_28 = quadp2_2
