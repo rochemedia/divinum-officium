@@ -17,9 +17,3 @@ docker-compose.override.yml
 # standalone/tools/epubgen2/output - directory containing generated output files
 standalone/tools/epubgen2/output/
 
-# .idea - directory containing IntelliJ IDEA project-specific settings
-.idea/
-
-# .DS_Store - Apple Double file used to store custom view settings of a folder
-.DS_Store
-
