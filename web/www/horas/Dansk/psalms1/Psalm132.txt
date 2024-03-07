@@ -1,4 +1,12 @@
-132:1 Hvor er det godt og herligt, * når brødre sidder sammen!
-132:2 Det er som den gode olie på hovedet, * der flyder ned over skægget, over Arons skæg,
-132:2 Ned over kjortlens halsåbning. * Det er som Hermons dug, der falder på Zions bjerge.
-132:3 For dér giver Herren velsignelsen, * livet i al evighed.
+psalm = [
+    {"text": "Hvor er det godt og herligt, * når brødre sidder sammen!", "line_break": True},
+    {"text": "Det er som den gode olie på hovedet, * der flyder ned over skægget, over Arons skæg,", "line_break": True},
+    {"text": "Ned over kjortlens halsåbning. * Det er som Hermons dug, der falder på Zions bjerge.", "line_break": False},
+    {"text": "For dér giver Herren velsignelsen, * livet i al evighed.", "line_break": False},
+]
+
+for verse in psalm:
+    if verse["line_break"]:
+        print(verse["text"])
+    else:
+        print(verse["text"], end="")
