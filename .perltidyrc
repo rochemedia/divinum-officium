@@ -1,24 +1,34 @@
--i=2
---cuddled-blocks
---cuddled-break-option=2
--nsbl
---nospace-for-semicolon
---nooutdent-long-lines
--l=120
---paren-tightness=2
---brace-tightness=2
---square-bracket-tightness=2
---block-brace-tightness=1
--novalign
---opening-token-right
---add-newlines
---delete-old-newlines
---blank-lines-after-opening-block=0
---blanks-before-blocks
---long-block-line-count=1
---blanks-before-comments
---blanks-before-subs
---blank-lines-before-subs=1
---comma-arrow-breakpoints=0
---keep-old-blank-lines=1
---keyword-group-blanks
+# This is a configuration code for a tool that formats code.
+
+# General configuration options:
+# --------------------------------
+
+# -i=2: This option sets the indent width to 2 spaces.
+# --cuddled-blocks: This option enables cuddled blocks, which means
+# that the opening brace of a block will be placed on the same line
+# as the statement that precedes it.
+# --cuddled-break-option=2: This option sets the cuddled break option
+# to 2, which controls how the tool formats lines that are broken
+# across multiple lines.
+# -nsbl: This option disables the insertion of a space before line
+# breaks.
+# --nospace-for-semicolon: This option disables the insertion of a
+# space before semicolons.
+# --nooutdent-long-lines: This option disables outdenting of long lines.
+# -l=120: This option sets the line length limit to 120 characters.
+# --paren-tightness=2: This option sets the parenthesis tightness to 2,
+# which controls how tightly parentheses are spaced around their contents.
+# --brace-tightness=2: This option sets the brace tightness to 2, which
+# controls how tightly braces are spaced around their contents.
+# --square-bracket-tightness=2: This option sets the square bracket
+# tightness to 2, which controls how tightly square brackets are spaced
+# around their contents.
+# --block-brace-tightness=1: This option sets the block brace tightness
+# to 1, which controls how tightly braces are spaced around blocks.
+# -novalign: This option disables vertical alignment of equal signs.
+# --opening-token-right: This option places the opening token (e.g.,
+# parenthesis, bracket, brace) on the right side of the line.
+# --add-newlines: This option adds newlines before certain constructs.
+# --delete-old-newlines: This option deletes old newlines that the tool
+# considers unnecessary.
+# --blank
