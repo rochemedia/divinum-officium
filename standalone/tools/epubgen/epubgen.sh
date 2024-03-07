@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# display_usage function displays the usage information for the script
 display_usage() {
     echo "Usage: $0 MONTH YEAR LANG"
     echo "Create a monthly Divinum Officium in EPUB format."
@@ -9,12 +10,14 @@ display_usage() {
     echo -e "  LANG\t\tThe second language (English, Italiano, Magyar)"
 }
 
+# Check if the correct number of arguments are provided
 if [ $# -ne 3 ]; then
     echo -e "Too few arguments, you must specify three arguments: MONTH, YEAR and LANG.\n"
     display_usage
     exit 1
 fi
 
+# Validate the month format
 mformat='^[0-9][0-9]$'
 if ! [[ $1 =~ $mformat ]]; then
     echo -e "Invalid month format, the month must be in two-digit format.\n"
@@ -24,6 +27,7 @@ fi
 
 MONTH=$1
 
+# Validate the year format
 yformat='^[0-9][0-9][0-9][0-9]$'
 if ! [[ $2 =~ $yformat ]]; then
     echo -e "Invalid year format, the year must be in four-digit format.\n"
@@ -33,6 +37,7 @@ fi
 
 YEAR=$2
 
+# Validate and set the language
 case $3 in
     English)
 	BLANG=$3
@@ -55,12 +60,17 @@ case $3 in
 	;;
 esac
 
+# Set the current directory and create a temporary working directory
 CDUR=$(pwd)
 WDIR=$(mktemp -d)
+
+# Calculate the number of days in the specified month
 DAYN=$(cal $MONTH $YEAR|egrep -v [a-z]|wc -w)
 
 echo -e "\e[1m:: Starting to generate hours\e[0m"
 cd ../../../web/cgi-bin/horas
+
+# Generate HTML files for each day and hour
 for DAY in $(seq -w $DAYN); do
     echo -ne "Day $DAY/$DAYN\r"
     ./Eofficium.pl "date1=$MONTH-$DAY-$YEAR&command=prayMatutinum&version=Rubrics%201960&testmode=regular&lang2=$BLANG&votive=" > $WDIR/$MONTH-$DAY-$YEAR-1-Matutinum.html 2> /dev/null;
@@ -75,46 +85,13 @@ done
 echo ""
 echo -e "\e[1m:: Finished the generation of hours\e[0m"
 
+# Create the index.html file
 echo -e "\e[1m:: Starting to create index.html\e[0m"
 cd $WDIR
+
+# Redirect stdout to index.html
 exec 6>&1
 exec > index.html
-printf "<html>\n<head><title>Index Horarum</title></head>\n<body style=\"font-family:'Gentium Book Basic'; font-size:87%%; line-height:150%%;\">\n<h1 align=\"center\">Index Horarum</h1>"
-for DAY in $(seq -w $DAYN); do
-    printf "<span id=\"day\">$MONTH-$DAY-$YEAR</span>"
-    printf "<ul>\n"
-    printf "<li><a id=\"hour\" href=\"$MONTH-$DAY-$YEAR-1-Matutinum.html\">Matutinum</a></li>\n"
-    printf "<li><a id=\"hour\" href=\"$MONTH-$DAY-$YEAR-2-Laudes.html\">Laudes</a></li>\n"
-    printf "<li><a id=\"hour\" href=\"$MONTH-$DAY-$YEAR-3-Prima.html\">Prima</a></li>\n"
-    printf "<li><a id=\"hour\" href=\"$MONTH-$DAY-$YEAR-4-Tertia.html\">Tertia</a></li>\n"
-    printf "<li><a id=\"hour\" href=\"$MONTH-$DAY-$YEAR-5-Sexta.html\">Sexta</a></li>\n"
-    printf "<li><a id=\"hour\" href=\"$MONTH-$DAY-$YEAR-6-Nona.html\">Nona</a></li>\n"
-    printf "<li><a id=\"hour\" href=\"$MONTH-$DAY-$YEAR-7-Vespera.html\">Vespera</a></li>\n"
-    printf "<li><a id=\"hour\" href=\"$MONTH-$DAY-$YEAR-8-Completorium.html\">Completorium</a></li>\n"
-    printf "</ul><br>\n"
-done
-printf '</body>\n</html>\n'
-exec 1>&6 6>&-
-echo -e "\e[1m:: Finished the creating of index.html\e[0m"
 
-echo -e "\e[1m:: Starting to create EPUB file\e[0m"
-ebook-convert index.html "../Divinum Officium - Latin-$BLANG ($YEAR-$MONTH).epub" \
-	--disable-font-rescaling \
-	--margin-bottom 15 --margin-left 15 --margin-right 15 --margin-top 15 \
-	--embed-all-fonts --subset-embedded-fonts \
-	--chapter / --chapter-mark none --page-breaks-before / \
-	--author-sort 'Divinum Officium Project' --authors 'Divinum Officium Project' \
-	--language la --publisher 'Divinum Officium Project' \
-	--tags "Divine Office, Breviarium, Zsolozsma" \
-	--title "Divinum Officium - Latin-$BLANG ($YEAR-$MONTH)" --dont-split-on-page-breaks \
-	--level1-toc '//h:span[@id="day"]' --level2-toc '//h:a[@id="hour"]' \
-	--no-chapters-in-toc --disable-dehyphenate \
-	--disable-delete-blank-paragraphs --disable-fix-indents \
-	--disable-format-scene-breaks --disable-unwrap-lines \
-	--disable-italicize-common-cases --keep-ligatures \
-	--disable-markup-chapter-headings --disable-renumber-headings \
-	--disable-remove-fake-margins || exit 1
-echo -e "\e[1m:: Finished the creating of EPUB file\e[0m"
-
-cd $CDIR
-rm -Rf $WDIR
+# Print the HTML structure and content
+printf "<html>\n<head><title>Index Horarum</title></head>\n<body style=\"font-family:'Gentium Book Basic'; font-size:87%%; line-height:150%%;\">\n<h1 align=\"center\">
