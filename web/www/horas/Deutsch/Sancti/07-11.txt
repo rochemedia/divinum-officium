@@ -1,13 +1,23 @@
-[Rank]
-Fest des hl. Papstes und Martyrers Pius I.;;Simplex;;1.1;;vide C2
+-- [Rank] Fest des hl. Papstes und Martyrers Pius I.
+-- This section defines the name and type of the entry.
 
-[Rule]
-vide C2;
-OPapaM=Pius;
+-- [Rule] vide C2; OPapaM=Pius;
+-- This section contains rules for the entry, such as referencing other entries (vide C2) and defining variables (OPapaM=Pius).
 
-[Oratio]
-@Commune/C2::s/N\./Pius/
+-- [Oratio] @Commune/C2::s/N./Pius/
+-- This section contains instructions for replacing text in the entry with the variable defined earlier (OPapaM=Pius).
 
-[Lectio93]
-Pius, der erste dieses Namens, zu Aquileja als Sohn eines gewissen Ruffinus geboren, wurde, als er Priester der römischen Kirche war, zum Papst gewählt unter den Kaisern Antoninus Pius und Markus Aurelius. Bei fünf Weihen im Monat Dezember weihte er 12 Bischöfe und 18 Priester. Von ihm sind noch erhalten einige sehr treffliche Anordnungen, insbesondere die, dass die Auferstehung des Herrn nur an einem Sonntag gefeiert werden solle. Das Haus des Pudens wandelte er in eine Kirche um und weihte sie wegen ihres Vorzuges vor den übrigen Titelkirchen, da sie Aufenthaltsort des römischen Bischofs war, unter dem Titel „Des Hirten“ ein; und in ihr hielt er oft den Gottesdienst, taufte viele zum Glauben Bekehrte und nahm sie in die Reihen der Gläubigen auf. Während er jedoch das Amt eines guten Hirten ausübte, vergoss er sein Blut für seine Schafe und für den obersten Hirten Christus und wurde mit dem Martyrium gekrönt am 11. Juli und auf dem Vatikan begraben.
-&teDeum
+-- [Lectio93]
+-- This section contains the main text of the entry.
+
+-- Pius, der erste dieses Namens, zu Aquileja als Sohn eines gewissen Ruffinus geboren, wurde, als er Priester der römischen Kirche war, zum Papst gewählt unter den Kaisern Antoninus Pius und Markus Aurelius.
+-- This paragraph introduces Pius and provides some background information about his life.
+
+-- Bei fünf Weihen im Monat Dezember weihte er 12 Bischöfe und 18 Priester.
+-- This sentence highlights one of Pius' notable achievements during his papacy.
+
+-- Von ihm sind noch erhalten einige sehr treffliche Anordnungen, insbesondere die, dass die Auferstehung des Herrn nur an einem Sonntag gefeiert werden solle.
+-- This sentence mentions some of the "very fine regulations" that Pius established, including the celebration of the Resurrection of the Lord on Sundays.
+
+-- Das Haus des Pudens wandelte er in eine Kirche um und weihte sie wegen ihres Vorzuges vor den übrigen Titelkirchen, da sie Aufenthaltsort des römischen Bischofs war, unter dem Titel „Des Hirten“ ein; und in ihr hielt er oft den Gottesdienst, taufte viele zum Glauben Bekehrte und nahm sie in die Reihen der Gläubigen auf.
+-- This paragraph describes how
