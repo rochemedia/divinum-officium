@@ -1,2 +1,36 @@
+# This is a dictionary called 'episode1' that contains information about a TV show episode.
 episode1 = {
 
+    # The key 'title' maps to the value 'Pilot', which is the title of the episode.
+    'title': 'Pilot',
+
+    # The key 'number' maps to the value 1, which is the episode number.
+    'number': 1,
+
+    # The key 'air_date' maps to the value '2023-01-01', which is the date the episode aired.
+    'air_date': '2023-01-01',
+
+    # The key 'characters' maps to a list of dictionaries, each containing information about a character in the episode.
+    'characters': [
+        {
+            # The character dictionary contains the key 'name' mapping to the value 'John Doe', which is the name of the character.
+            'name': 'John Doe',
+
+            # The character dictionary also contains the key 'age' mapping to the value 35, which is the age of the character.
+            'age': 35,
+
+            # The character dictionary contains the key 'occupation' mapping to the value 'Detective', which is the occupation of the character.
+            'occupation': 'Detective'
+        },
+        {
+            # The character dictionary contains the key 'name' mapping to the value 'Jane Doe', which is the name of the character.
+            'name': 'Jane Doe',
+
+            # The character dictionary also contains the key 'age' mapping to the value 32, which is the age of the character.
+            'age': 32,
+
+            # The character dictionary contains the key 'occupation' mapping to the value 'Doctor', which is the occupation of the character.
+            'occupation': 'Doctor'
+        }
+    ]
+}
