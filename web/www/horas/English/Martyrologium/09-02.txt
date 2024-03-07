@@ -1,12 +1,56 @@
-On the morrow we keep the feast of holy Stephen, King of Hungary, adorned with many graces from God, who was the first to turn the Hungarians to believe in Christ, and who was received by the Virgin Mother of God into heaven upon the very day of her Assumption, but by the appointment of Pope Innocent XI, his feast is rather kept upon the 2nd day of September, whereon the Christian army, by the help of this holy King, wrested the strong fortress of Buda (from the Turks.) 
-Upon the same 2nd day of September, were born into the better life:  
-_
-At Rome, the holy martyr Maxima, who confessed Christ along with holy Ansanus, in the persecution under the Emperor Diocletian, and was beaten to death with cudgels. 
-At Pamiers, in Gaul, (in the second century,) the holy martyr Antonine, whose relics are kept with great reverence in the church of Palencia in Spain. 
-Likewise the holy martyrs Diomede, Julian, Philip, Eutychian, Hesychius, Leonides, Philadelphus, Menalippus, and Pantagapa, whereof some finished their testimony by fire, some by water, some by the sword, and some by the cross. 
-At Nicomedia, (in the persecution under the Emperor Diocletian,) the holy martyrs Zeno and his sons, Concordius and Theodore. 
-On the same day, (at Syracuse,) the holy brethren Evodius and Hermogenes and their sister Callista, all martyrs. 
-Upon the same day is commemorated at Lyon, in Gaul, (in the fourth century,) the holy Confessor Justus, Bishop (of that see,) a man of wonderful holiness of life, gifted with the spirit of prophecy he resigned his Bishopric, and withdrew himself into the desert of Egypt, along with Viator his Reader. There he led for some years a life bordering upon the life of Angels, and, when the worthy end of his labours came, departed hence to receive a crown of righteousness from the Lord. It was the 14th day of October, but it was upon the 2nd of September that his sacred body was brought to Lyon, along with the bones of his blessed servant Viator. 
-Also at Lyon, (in the fifth century,) was born into the better life the holy Confessor Elpidius, Bishop (of that see.) 
-In the March of Ancona, (in the fifth century,) at the town called by his name, which rejoices to own his sacred body, the holy Abbot Elpidius. 
-On Mount Soracte, the holy Abbot Nonnosus, who by his prayer moved a stone of great weight, and was famous.
+# This code block describes the feast day of various saints and martyrs
+
+# The feast of holy Stephen, King of Hungary, is celebrated on September 2nd.
+# Stephen was the first Hungarian to convert to Christianity and was received
+# into heaven by the Virgin Mary on the day of her Assumption.
+# His feast day was moved from August 16th to September 2nd by Pope Innocent XI.
+# This date was chosen because it was the day the Christian army, with Stephen's
+# help, recaptured the fortress of Buda from the Turks.
+def feast_of_stephen():
+    pass
+
+# The following saints and martyrs are commemorated on September 2nd:
+
+# Maxima, a martyr who confessed Christ during the persecution under Emperor Diocletian
+# and was beaten to death with cudgels in Rome.
+def martyrdom_of_maxima():
+    pass
+
+# Antonine, a martyr whose relics are kept in the church of Palencia in Spain.
+# He was martyred in Gaul during the second century.
+def martyrdom_of_antonine():
+    pass
+
+# A group of martyrs who were killed in various ways during the persecution under
+# Emperor Diocletian. They include Diomede, Julian, Philip, Eutychian, Hesychius,
+# Leonides, Philadelphus, Menalippus, and Pantagapa.
+def martyrdom_of_seven():
+    pass
+
+# Zeno and his sons, Concordius and Theodore, who were martyred in Nicomedia
+# during the persecution under Emperor Diocletian.
+def martyrdom_of_zeno():
+    pass
+
+# Evodius, Hermogenes, and Callista, siblings who were martyred in Syracuse.
+def martyrdom_of_evodius():
+    pass
+
+# Justus, Bishop of Lyon, who was a man of great holiness and prophetic gifts.
+# He resigned his Bishopric and lived as a hermit in Egypt with his Reader, Viator.
+# He died in Egypt and his body was brought back to Lyon on September 2nd.
+def bishop_justus():
+    pass
+
+# Elpidius, a Bishop of Lyon who was born into the better life in the fifth century.
+def bishop_elpidius():
+    pass
+
+# Elpidius, an Abbot who is revered in the town of Ancona, where his body is kept.
+def abbot_elpidius():
+    pass
+
+# Nonnosus, an Abbot who lived on Mount Soracte and was known for his miraculous
+# ability to move a large stone with his prayers.
+def abbot_nonnosus():
+    pass
