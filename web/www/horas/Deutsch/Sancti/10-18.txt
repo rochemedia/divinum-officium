@@ -1,8 +1,7 @@
-[Rank]
-Fest des hl. Evangelisten Lukas;;Duplex 2 classis;;5.1;;ex C1a
-
-[Rank] (rubrica 1960)
-Fest des hl. Evangelisten Lukas;;Duplex 2 classis;;5;;ex C1a
+[Rank: Fest des hl. Evangelisten Lukas]
+[Type: Duplex 2 classis]
+[Liturgical day: 5.1]
+[Grade: ex C1a]
 
 [Oratio]
 Lass, wir bitten dich, o Herr, deinen heiligen Evangelisten Lukas für uns Fürsprache einlegen: der die Abtötung des Kreuzes ständig an seinem Leibe zur Ehre deines Namens getragen hat.
@@ -10,8 +9,7 @@ $Per Dominum
 
 [Lectio4]
 Aus dem Buche des heiligen Priesters Hieronymus von den Kirchenschriftstellern.
-!Kap. 7
-Lukas, ein Arzt aus Antiochien, und, wie seine Schriften zeigen, mit der griechischen Sprache wohl vertraut, war ein Jünger des Apostels Paulus und auf der ganzen Wanderung sein Begleiter. Er schrieb ein Evangelium, von dem derselbe Paulus sagt: "Ich habe mit ihm einen Bruder gesandt, dessen Lob wegen des Evangeliums in allen Kirchen ist." Umd im Briefe an die Kolosser: "Es grüßt Lukas, der Arzt, der mir so teuer ist." Und im Briefe an Timotheus: "Lukas ist allein bei mir." Er schrieb auch noch ein anderes ausgezeichnetes Buch, das den Titel Apostelgeschichte trägt, dessen Inhalt bis zu dem zweijährigen Aufenthalt des Paulus in Rom reicht, d. h. bis zum vierten Jahre Neros. Daraus erkennen wir, dass das Buch in der genannten Stadt verfasst ist.
+Kapitel 7: Lukas, ein Arzt aus Antiochien, und, wie seine Schriften zeigen, mit der griechischen Sprache wohl vertraut, war ein Jünger des Apostels Paulus und auf der ganzen Wanderung sein Begleiter. Er schrieb ein Evangelium, von dem derselbe Paulus sagt: "Ich habe mit ihm einen Bruder gesandt, dessen Lob wegen des Evangeliums in allen Kirchen ist." Umd im Briefe an die Kolosser: "Es grüßt Lukas, der Arzt, der mir so teuer ist." Und im Briefe an Timotheus: "Lukas ist allein bei mir." Er schrieb auch noch ein anderes ausgezeichnetes Buch, das den Titel Apostelgeschichte trägt, dessen Inhalt bis zu dem zweijährigen Aufenthalt des Paulus in Rom reicht, d. h. bis zum vierten Jahre Neros. Daraus erkennen wir, dass das Buch in der genannten Stadt verfasst ist.
 
 [Lectio5]
 Die Abschnitte von Paulus und Thekla, auch die ganze Erzählung von der Taufe des Leo rechnen wir also unter die unechten Schriften. Welcher Grund wäre denn gegeben, dass der unzertrennliche Begleiter des Apostels unter dessen übrigen Taten das allein nicht gewusst hätte? Aber auch Tertullian, der jenen Zeiten nahe stand, berichtet, dass ein für den Apostel Paulus begeisterter Priester in Kleinasien von Johannes der Urheberschaft jenes Buches überführt worden sei und gestanden habe, er habe dies aus Liebe zu Paulus getan und habe deshalb daneben gegriffen. Einige vermuten, dass Paulus, so oft er in seinen Briefen den Ausdruck "Gemäß meinem Evangelium" gebraucht, das Werk des Lukas bezeichne.
