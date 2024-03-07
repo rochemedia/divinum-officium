@@ -1,4 +1,29 @@
-01-12=Tempora/Epi1-0a;;
-01-31=Tempora/Epi4-0;;
-12-26=Tempora/Nat1-0;;
-dirge=;;
+# Define the map of month numbers to episode names
+month_episodes = (
+    [12, 1-25] = "Tempora/Nat1-0"
+    [1, 1-31] = "Tempora/Epi4-0"
+    [12, 26-31] = "Tempora/Epi1-0a"
+)
+
+# Define the dirge variable
+dirge = ""
+
+# Iterate over the month_episodes map
+for month, range in month_episodes.items():
+    # Extract the start and end day of the range
+    start_day, end_day = range
+
+    # Iterate over the days in the range
+    for day in range(start_day, end_day + 1):
+        # Define the episode path
+        episode_path = f"{month}/Epi{day:02}-0"
+
+        # Check if the episode path exists
+        if not is_path_exists(episode_path):
+            # If the episode path does not exist, append the dirge message
+            dirge += f"Missing episode: {episode_path}\n"
+
+# Print the dirge message if it is not empty
+if dirge:
+    print(dirge)
+
