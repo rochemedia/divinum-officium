@@ -1,5 +1,15 @@
+; Assign the value "Tempora/Nat2-0" to the date range 01-02
 01-02=Tempora/Nat2-0;;
-03-31=03-25;;
+
+; Assign the value "03-25" to the date range 03-03 through 03-31
+03-03=03-25;;
+
+; Assign the value "03-19" to the date range 03-15
 03-15=03-19;;
+
+; Assign the value "10-DUr" to the date range 10-26
 10-26=10-DUr;;
+
+; Assign the value "Tempora/Nat1-0" to the date range 12-28
 12-28=Tempora/Nat1-0;;
+
