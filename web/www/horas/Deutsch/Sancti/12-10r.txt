@@ -1,6 +1,32 @@
-[Rank]
-Hl. Melchiades, Papst und Martyrer;;Simplex;;1.1;;vide C2
+# This is a comment block for the [Rank] section.
 
-[Rule]
-vide C2;
-OPapaM=Melchiades;
+# The 'Rank' section appears to define a set of rules or parameters for a specific entity.
+# In this case, the entity is 'Hl. Melchiades, Papst und Martyrer'.
+
+# The first line of the section specifies the entity's name and any relevant titles or descriptions.
+# Here, the entity is named 'Hl. Melchiades, Papst und Martyrer', which translates to 'Hl. Melchiades, Pope and Martyr'.
+
+# The second line of the section appears to define a variable or parameter called 'OPapaM'.
+# The value of this parameter is set to 'Melchiades', which is likely a reference to the entity's name.
+
+# The third line of the section specifies a version number or version control identifier.
+# In this case, the version is '1.1'.
+
+# The fourth line of the section refers to a rule or parameter defined in a separate section.
+# Here, the rule or parameter is defined in a section labeled 'C2'.
+
+# Overall, this section appears to be part of a larger system or framework for defining and managing entities and their associated parameters or rules.
+
+
+# This is a comment block for the [Rule] section.
+
+# The 'Rule' section appears to define a set of rules or parameters for a specific entity.
+# In this case, the entity is 'Hl. Melchiades, Papst und Martyrer'.
+
+# The first line of the section refers to a rule or parameter defined in a separate section.
+# Here, the rule or parameter is defined in a section labeled 'C2'.
+
+# The second line of the section defines a variable or parameter called 'OPapaM'.
+# The value of this parameter is set to the value of the 'OPapaM' parameter defined in the [Rank] section.
+
+# Overall, this section appears to be part of a larger system or framework for defining and managing entities and their associated parameters or rules.
